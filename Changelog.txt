@@ -1,0 +1,467 @@
+====================
+     06-03-2016
+====================
+
+
+   * frameworks/base/
+53f3fee Merge "Add interpolators to qs tiles animation [1/2]" into mm6.0
+
+   * packages/apps/Settings/
+83ac0c3 Fix the memory leak in DrawOverlayDetails
+39bef0f Fix so you can go back in Time zone page
+7a71d9b IP protocol shows wrong in ApnEditor
+bb3b03f Merge "Settings: Another round of AICPfying" into mm6.0
+
+   * packages/providers/ThemesProvider/
+df9a15e Apply bandaid to ensure preview permissions are correct
+
+====================
+     06-02-2016
+====================
+
+
+   * device/qcom/common/
+a214e51 power: Fixup typo in 8939 cpu4 timer rate
+
+   * frameworks/base/
+6f3073e fw: Fix power key interception for PRIVATE_FLAG_PREVENT_POWER_KEY
+58bd98f Add interpolators to qs tiles animation [1/2]
+6e44fa2 Automatic translation import
+48f6193 SystemUI: Fix mCanDismissKeyguard state issue
+eefdab1 Don't lookup application keyguard notification visibility unnecessarily
+4df1360 Frameworks: Add per app controls for LP keyguard notifications (1/2)
+f680cc2 Revert "[1/2] base: app notifications hide when locked"
+
+   * packages/apps/AicpExtras/
+caa5f12 Add interpolators to qs tiles animation [2/2]
+ddc4c8b AicpExtras:  press back twice to exit app
+
+   * packages/apps/CMFileManager/
+90cb9de Flush the shell console after each command
+
+   * packages/apps/CellBroadcastReceiver/
+2015d27 Do not let system keys bypass alert
+eb998df Revert "Automatic translation import"
+
+   * packages/apps/Dialer/
+ab2ea0c Fix NPE when checking default Dialer
+9da14aa Fix call recording does not using AAC format on some devices
+23aae9a Automatic translation import
+
+   * packages/apps/InCallUI/
+e5ffdfe Automatic translation import
+
+   * packages/apps/Messaging/
+5366155 Messaging: Respect always ask pref in quick message
+
+   * packages/apps/OmniSwitch/
+104547a OmniSwitch: rework thumb loading
+
+   * packages/apps/Settings/
+170eca7 Settings: Another round of AICPfying
+4f2c6b3 Merge "Automatic translation import" into mm6.0
+99faa4a Automatic translation import
+aab61b5 Lockscreen -> lock screen
+86c5ac0 Settings: Add per app controls for LP keyguard notifications (2/2)
+ec04afc Revert "[2/2] Settings: app notifications hide when locked"
+
+   * packages/services/Mms/
+50a85fe Revert "MmsRequest: Turn on data for the MMS transaction if required"
+
+   * packages/services/Telephony/
+646436a Automatic translation import
+
+   * vendor/aicp/
+80fec3f Revert "products: lettuce: Do not inherit non-existing makefile"
+
+   * vendor/cmsdk/
+80bb0c2 Themes: Use default audibles when pkgName is empty
+4feff46 Automatic translation import
+
+====================
+     06-01-2016
+====================
+
+
+   * external/stagefright-plugins/
+b8f2c70 stagefright-plugins: check if input queue is empty
+
+   * frameworks/base/
+9cd110a SystemUI : Ensure we unset focus when showKeyguard is called
+55dd4ff Add animations to quick settings tiles [1/2]
+b47299b Headers: Separate default header handling from contextual headers
+b0e104e services: Kick off to CMSystemServer for external service init.
+85bf60b am: clear state for every protected app invocation.
+081cba0 fw: reintroduce PRIVATE_FLAG_PREVENT_POWER_KEY
+
+   * packages/apps/AicpExtras/
+071f3db Add animations to quick settings tiles [2/2]
+
+   * packages/apps/AudioFX/
+3e0aa4d Automatic translation import
+
+   * packages/apps/CMFileManager/
+8e28d1f Automatic translation import
+
+   * packages/apps/CMUpdater/
+238f31c Automatic translation import
+
+   * packages/apps/Calendar/
+0d3b3f3 Automatic translation import
+
+   * packages/apps/Camera2/
+d2bb13d Camera2: only override power key
+
+   * packages/apps/CellBroadcastReceiver/
+b48cf1f Move the strings to cm_strings.xml for translation
+
+   * packages/apps/Contacts/
+17df072 Automatic translation import
+
+   * packages/apps/ContactsCommon/
+3b240ec Automatic translation import
+
+   * packages/apps/Eleven/
+adf2dcb Automatic translation import
+
+   * packages/apps/Gello/
+94aa057 Automatic translation import
+
+   * packages/apps/Messaging/
+90cc20f Automatic translation import
+
+   * packages/apps/PhoneCommon/
+8a39ad1 Automatic translation import
+
+   * packages/apps/Screencast/
+7926087 Automatic translation import
+
+   * packages/apps/Snap/
+a3aea38 Automatic translation import
+a0a8d92 Snap: Only override power key
+
+   * packages/apps/SoundRecorder/
+dd05872 Automatic translation import
+
+   * packages/apps/Trebuchet/
+156cc21 Automatic translation import
+
+   * packages/apps/TvSettings/
+a5c32e0 Automatic translation import
+
+   * packages/providers/DataUsageProvider/
+e48baf2 Automatic translation import
+
+   * packages/providers/DownloadProvider/
+7c5833e Automatic translation import
+
+   * packages/services/LiveLockScreenService/
+3853af4 Automatic translation import
+
+   * packages/wallpapers/PhotoPhase/
+9fb61ea Automatic translation import
+
+   * vendor/cmsdk/
+30a6a76 cmsdk: Create CMSystemServer to handle our platform init.
+
+====================
+     05-31-2016
+====================
+
+
+   * external/DUtils/
+92f2d70 Merge "Revert "DUI: Use DocumentsProvider API helper methods [2/2]"" into mm6.0
+12ca571 Revert "DUI: Use DocumentsProvider API helper methods [2/2]"
+bfdf455 DUtils: Add app picker as an action (1/2)
+
+   * frameworks/base/
+3efe7d0 Core: Fix OOB
+
+   * frameworks/native/
+6500d42 Add dalvik heap/hwui overrides for xxxhdpi phone with 4096MB RAM
+
+   * packages/apps/AicpExtras/
+b30a392 Update only yoga gif for now
+
+   * packages/apps/DUI/
+de4e0b2 DUI: Add app picker as an action (2/2)
+
+   * packages/apps/Gello/
+3914bbb Bring DuckDuckGo to parity with AOSP browser changes
+1a35851 Gello: Add DuckDuckGo search engine to ES locale
+
+   * packages/apps/InCallUI/
+6e13673 Remove ring around activated glowpad targets.
+
+   * packages/apps/Settings/
+1686c59 Merge "Revert "DUI: Use DocumentsProvider API for handling custom icons [1/2]"" into mm6.0
+0a91bbd Merge "Revert "DUI: Use DocumentsProvider API for handling custom icons [1/2]"" into mm6.0
+af9f6de Revert "DUI: Use DocumentsProvider API for handling custom icons [1/2]"
+6e6995b Revert "DUI: Use DocumentsProvider API for handling custom icons [1/2]"
+
+   * vendor/aicp/
+3444261 products: lettuce: Update to match msm8916-common
+b911f11 products: lettuce: Do not inherit non-existing makefile
+e31e0b7 update COOPVOCE apn
+
+====================
+     05-30-2016
+====================
+
+
+   * packages/apps/AicpExtras/
+0ab0f9e AicpExtras: fix romstats url
+
+   * vendor/aicp/
+ef34053 vendor_aicp: Update the tomato AICP makefile for Marshmallow
+2c5f964 Geehrc Maintainer
+
+====================
+     05-29-2016
+====================
+
+
+   * packages/apps/PackageInstaller/
+02d1a76 Merge "PackageInstaller: Initial DE translations by Ralf Luther" into mm6.0
+
+   * packages/apps/Settings/
+ae7526d Merge "Settings: Updated DE translations by Ralf Luther" into mm6.0
+
+   * packages/apps/ThemeChooser/
+6f5c63c Themes: fix dismissing Play Store app installed notification
+
+   * vendor/aicp/
+2285ea3 Merge "huashan: Adapt to device tree new fragmented structure" into mm6.0
+
+====================
+     05-28-2016
+====================
+
+
+   * packages/apps/CellBroadcastReceiver/
+d6461d6 Correct the broadcast channel for Colombia
+
+   * packages/apps/Messaging/
+4cc542b Automatic translation import
+ddf7c99 [SMS] Replace message content for protocol 0x41-0x47
+
+   * packages/apps/Screencast/
+1ecd521 Automatic translation import
+
+   * packages/apps/Stk/
+f9aecea Stk: Make the text a little smaller
+053ce97 Stk: Materialize message dialog icon
+65aaf67 Change the theme and the style of the activities
+a1e3c60 Fix tab/space inconsistencies in stk_msg_dialog.xml
+
+   * packages/services/Telephony/
+30f7970 Automatic translation import
+
+   * vendor/aicp/
+c177478 Don't dex-preopt Gello
+e4671e9 huashan: Adapt to device tree new fragmented structure
+
+   * vendor/cmsdk/
+3b88b95 Themes: Don't kill blacklisted launchers on theme change
+
+====================
+     05-27-2016
+====================
+
+
+   * frameworks/base/
+f93ee94 appops: Respect screen interactivity before creating dialogs.
+db231cd appops: Implement concept of delayedcount.
+3f86f84 Automatic translation import
+
+   * frameworks/native/
+ea0ee31 dumpstate: add CM version to output
+
+   * packages/apps/AicpExtras/
+d5ad201 AE: Updated DE translations by Ralf Luther
+
+   * packages/apps/Bluetooth/
+8a156be Automatic translation import
+
+   * packages/apps/CMFileManager/
+1f47310 Fix crash when rotate to landscape without grant permission
+
+   * packages/apps/CMWallpapers/
+7d22895 CMWallpapers: Add a set wallpaper button for nowallpaper
+
+   * packages/apps/Calendar/
+411ad09 Automatic translation import
+
+   * packages/apps/CellBroadcastReceiver/
+eadcfcd Automatic translation import
+
+   * packages/apps/Contacts/
+ffaa045 Automatic translation import
+
+   * packages/apps/ContactsCommon/
+f759863 Automatic translation import
+
+   * packages/apps/DeskClock/
+d0561ad DeskClock: Initial DE translations by Ralf Luther
+5332383 Modded margaritov color picker
+6173e6c Add option to set the color of the digital clock widget
+
+   * packages/apps/Dialer/
+cd8c0ac Dialer: Updated DE translations by Ralf Luther
+7092451 Automatic translation import
+08cfce9 Alias Dialer's settings activity for use as caller-info settings
+d3c031a Fix NPE in caller-info settings migration component
+234d4d3 Dialer: Move Smart Options to aicp_strings
+ac7e239 Add migrations for CallerInfo related settings
+
+   * packages/apps/Gello/
+f4d3ccf Automatic translation import
+
+   * packages/apps/InCallUI/
+a5416a6 Automatic translation import
+6c47523 Fix copy constructor of ContactInfoCache
+
+   * packages/apps/Messaging/
+26db7cf Automatic translation import
+
+   * packages/apps/PackageInstaller/
+8e9f5c4 PackageInstaller: Initial DE translations by Ralf Luther
+5fea008 Show current and new version in install dialog
+
+   * packages/apps/PhoneCommon/
+2c6c8d3 Automatic translation import
+
+   * packages/apps/Profiles/
+77051de Automatic translation import
+
+   * packages/apps/Screencast/
+1ad771f Fix reference to a renamed string
+e66278d Automatic translation import
+
+   * packages/apps/Settings/
+4df255d Settings: Updated DE translations by Ralf Luther
+82c6d8d Add fastscroll to the Manage applications screen
+53e0107 Automatic translation import
+
+   * packages/apps/SoundRecorder/
+0023df8 Automatic translation import
+
+   * packages/apps/ThemeChooser/
+bcc2cca Themes: Stop resetting per-app overlays all the time!
+64e446a Add RTL support
+
+   * packages/apps/Trebuchet/
+93e949f Wallpaper: Allow multiple partners to be loaded
+cb3431d Automatic translation import
+
+   * packages/providers/DataUsageProvider/
+c42d795 Automatic translation import
+
+   * packages/services/LiveLockScreenService/
+ba3b4f9 Automatic translation import
+
+   * packages/services/Telephony/
+174665f Automatic translation import
+21802c3 Automatic translation import
+18caa4f Move IMS strings to proper resource file
+
+   * platform_manifest/
+9d291b2 Track PackageInstaller locally
+414eaad Track DeskClock locally
+
+   * vendor/cmsdk/
+0b7ad38 Automatic translation import
+
+====================
+     05-26-2016
+====================
+
+
+   * external/DUtils/
+1292e27 DUI: Use DocumentsProvider API helper methods [2/2]
+
+   * frameworks/base/
+d6d7270 Pie: Disable background in Bare mode
+d5fcf8f NetPluginDelegate: Disable SPAM in log
+
+   * packages/apps/CMFileManager/
+7201e71 Remove set as home menu item for secure storage
+bbf2266 PickerActivity: Grant read url permission
+
+   * packages/apps/Contacts/
+f05914c Contacts : fix FAB when an InCall plugin tab is in focus
+765f3a0 Contacts: only schedule metrics JobService if Ambient exists
+
+   * packages/apps/Messaging/
+a29d139 Integrate CallerInfo with notifications
+
+   * packages/apps/Settings/
+a114415 DUI: Use DocumentsProvider API for handling custom icons [1/2]
+
+   * packages/apps/Snap/
+b3cfd09 Snap: Update comment to reflect audio focus changes
+2bcea7e SnapdragonCamera: Release audio focus when video recording is done
+ed07584 SnapdragonCamera: request audio focus before starting video recording
+ccd3e81 SnapdragonCamera: Recording screen to be dynamic
+02fa448 SnapdragonCamera: Fix the memory leak on view.
+
+   * packages/apps/ThemeChooser/
+54fe34e Themes: Show title of category in browser fragment
+
+   * packages/services/Telephony/
+e679846 Switch back to Auto selection if Manual fail's
+
+   * vendor/aicp/
+7dcbead vendor_aicp: Add support for LG Optimus G Intl (geehrc)
+
+====================
+     05-25-2016
+====================
+
+
+   * cts/
+978b415 Merge "DO NOT MERGE ANYWHERE: Update CTS to 6.0R7" into marshmallow-cts-release
+63ce966 DO NOT MERGE ANYWHERE: Update CTS to 6.0R7
+
+   * frameworks/base/
+3621ede SystemUI: fix qs pulldown on certain themes
+222da5a pm: Use sourcerecord if available for protected app validation.
+567cacc SystemUI: improve keyguard with SIM PIN interactions
+c929acc Merge changes Ia39db96d,I39f3b4f3 into mm6.0
+a2d8a0c StatusBar: Do not just define vars...
+7071520 Stop adjustConfigurationLw causing sleep/lock.
+413fd58 Fix phone crashes after tapping Data Usage in Settings
+
+   * packages/apps/AicpExtras/
+16b98ac AE: Dutch Translation
+
+   * packages/apps/CellBroadcastReceiver/
+89bcf56 Enable broadcast channels for Colombia
+25e7ce5 Support playing the alert and vibrate until dismissed
+
+   * packages/apps/Dialer/
+30f379c Crash Fix When DeepLinkEnabled callback returns to a null Context.
+09f96f4 Overflow popup menu may be null when overflow menu button is not null
+
+   * packages/apps/Messaging/
+110cdf8 Add handling of MMS Read report.
+9da3129 Revert "[SMS] Replace message content can't be replaced"
+88b174e [SMS] Replace message content can't be replaced
+54374cf Added support for video and audio mms attachments
+
+   * packages/apps/Settings/
+cb4e463 Merge changes Ibb866ba5,I9e022162,Ie9ee1dc6 into mm6.0
+a30eb35 Settings: Disable cancelable with multi-windows confirm dialog
+b62ae9f Settings: Update oem unlocking status with back button
+774c086 Settings: Update oem unlocking status when dismiss
+be065b1 Fix the memory leak in TetherSettings
+0adfcd3 Settings: Allow sorting Applications by size
+3a982c6 Settings: Fix possible NPE
+
+   * packages/providers/TelephonyProvider/
+f320e09 Support playing the alert and vibrate until dismissed
+
+   * vendor/aicp/
+46ecad2 vendor_aicp: Update the Huashan AICP makefile for Marshmallow
+4e95ee3 Update ambientsdk version 1.5.11
+
