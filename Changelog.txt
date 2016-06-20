@@ -1,4 +1,384 @@
 ====================
+     06-18-2016
+====================
+
+
+   * frameworks/base/
+aa383ff SettingsProvider: Add missing INTERACT_ACROSS_USERS_FULL permission
+8f2241e Fix NPE in DocumentsUI when rotate UI before format as internal
+
+   * packages/apps/AudioFX/
+c5f90c1 Automatic translation import
+
+   * packages/apps/Bluetooth/
+8fed12d Automatic translation import
+
+   * packages/apps/BluetoothExt/
+cba6d27 Automatic translation import
+
+   * packages/apps/CMFileManager/
+2436b83 Automatic translation import
+5042221 Fix sort mode popup after rotation from portrait to landscape
+
+   * packages/apps/Camera2/
+b380209 Automatic translation import
+
+   * packages/apps/CellBroadcastReceiver/
+90661df Automatic translation import
+
+   * packages/apps/CertInstaller/
+7fa38ad Automatic translation import
+
+   * packages/apps/Contacts/
+dc8edef Automatic translation import
+
+   * packages/apps/ContactsCommon/
+0dba8fb Automatic translation import
+
+   * packages/apps/ExactCalculator/
+1992210 Automatic translation import
+
+   * packages/apps/Gello/
+41418ea Automatic translation import
+
+   * packages/apps/ManagedProvisioning/
+0ded606 Automatic translation import
+
+   * packages/apps/Messaging/
+315e824 Automatic translation import
+
+   * packages/apps/PhoneCommon/
+6115331 Automatic translation import
+
+   * packages/apps/Profiles/
+c49a6d5 Automatic translation import
+
+   * packages/apps/Screencast/
+d297fad Automatic translation import
+
+   * packages/apps/Settings/
+6c714fe Settings: Apply decor padding in landscape storage wizard
+
+   * packages/apps/Snap/
+f6bb5ad Automatic translation import
+
+   * packages/apps/Trebuchet/
+fd3ac2a Automatic translation import
+
+   * packages/apps/TvSettings/
+69224db Automatic translation import
+
+   * packages/inputmethods/LatinIME/
+8695e12 Automatic translation import
+
+   * packages/providers/BookmarkProvider/
+b9f8899 Automatic translation import
+
+   * packages/providers/CallLogProvider/
+31525d6 Automatic translation import
+
+   * packages/providers/ContactsProvider/
+0747d2d Automatic translation import
+
+   * packages/providers/DataUsageProvider/
+5178682 Automatic translation import
+
+   * packages/providers/TelephonyProvider/
+c8df0f0 Automatic translation import
+
+====================
+     06-17-2016
+====================
+
+
+   * external/DUtils/
+76c5f8b DUtils: Add clear notifications action (1/2)
+
+   * frameworks/base/
+f1b6198 Revert "Only show keyguard panel if on lockscreen + no activity on top"
+951fe35 FWB: Add back Left navbar option
+bfbf45c Fix NPE in boot dialog for loadIcon
+0791f72 AicpShortcuts: Add clear notifications action
+
+   * frameworks/opt/hardware/
+35f6e78 DisplayColorCalibration: Fix logic
+
+   * hardware/ti/omap4/
+8d0de83 cmhw: Use cmsdk FileUtils
+
+   * packages/apps/InCallUI/
+019affe Fix call dialog not dismiss
+
+   * packages/services/Telecomm/
+d42638e Handle IllegalArgumentException while setting default calling sub
+
+   * vendor/cmsdk/
+06ea863 utils: Introduce FileUtils class
+
+====================
+     06-16-2016
+====================
+
+
+   * build/
+b330ae2 Conditionally skip dex-preopting specific prebuilts.
+
+   * development/
+87654bc gdbclient: fix gdbclient <processname> invocation
+
+   * frameworks/opt/hardware/
+d2e68ea cmhw: Use cmsdk FileUtils
+
+   * packages/apps/InCallUI/
+e63d4f4 Explicitly set the visibility of right_icon within call notification
+
+   * packages/apps/Settings/
+bd21856 Settings: Dissallow privacy guarding system apps on overlay.
+be7ba22 Settings: Remove hide navigation bar settings
+
+   * packages/services/Telephony/
+5d1ef86 Telephony: change input type to phone for my phone no.
+
+   * vendor/aicp/
+76157bd cmsdk-api-coverage: Don't prepend ANDROID_BUILD_TOP to file path
+
+   * vendor/cmsdk/
+d492621 CMSDK : Add tests for ColorUtils
+79841a4 CMSDK : Fix external view test
+b5ed3c6 CMSDK : Add LiveLockScreenManager tests
+b95465f External view test
+
+====================
+     06-15-2016
+====================
+
+
+   * frameworks/base/
+a7a73da Merge "Themes: Expose Power Dialogs updated to PS7" into mm6.0
+268f966 Themes: Expose Power Dialogs updated to PS7
+2647a4a SysUI: Don't let rogue themes ruin notifications
+03bfea5 DocumentsUI : Hide advanced menu option when in forced mode
+28563de Merge "SystemUI : grey out heads-up and floating windows tile when off" into mm6.0
+419ef39 SystemUI : grey out heads-up and floating windows tile when off
+55402ab SystemUI: fix one more misbehaving shadow
+
+   * hardware/cyanogen/
+c70d78a cmhw: Use cmsdk FileUtils
+
+   * hardware/qcom/bt-caf/
+e024328 Merge branch 'bt.lnx.1.0.c1-rel' of git://codeaurora.org/platform/hardware/qcom/bt into HEAD
+
+   * hardware/qcom/wlan-caf/
+b1243a0 wcnss_service: Migrate from QMI to QCCI
+e81bc90 Merge branch 'wlan-aosp.lnx.1.0.c1-rel' of git://codeaurora.org/platform/hardware/qcom/wlan into cm-13.0
+
+   * packages/apps/DUI/
+079f452 DUI: Add clear notifications action (2/2)
+
+   * packages/apps/Dialer/
+34c1302 Makes private the ambient connection check, to stop log spam.
+
+   * packages/apps/InCallUI/
+87356b1 Stops ModButtonPresenter from hitting PackageManager on UI updates.
+
+   * packages/apps/LockClock/
+91933a8 Don't include all resource densities
+
+   * packages/apps/Settings/
+325d3d2 Settings: display fstype for mounted volumes
+9e39274 Settings: fix crash when reset App preference
+0500ed7 Settings : Rebuild app list after reset
+
+   * vendor/aicp/
+c17980f hammerheadcaf: update fingerprints to MOB30M
+267abd3 hammerhead: Update fingerprints and build desc.
+
+   * vendor/cmsdk/
+e9b1ad3 cmsdk: fixup javadoc in CMHardwareManager
+6fdda96 cmsdk: Clean up posted tile in CustomTileListenerService test.
+
+====================
+     06-14-2016
+====================
+
+
+   * device/qcom/common/
+96e5ea4 power-8994: Port features from msm8992
+
+   * external/cmsdk-api-coverage/
+c281622 cmsdk-api-coverage: Actually use the cmsdk-api-coverage jar.
+8ebfd3c cmsdk-api-coverage: initial fork of cts-api-coverage.
+
+   * packages/apps/CMFileManager/
+83abccb Filter out vnd.android.cursor mimetype for Picker
+
+   * packages/apps/CarrierConfig/
+1477e70 Resolve NZ roaming entry
+
+   * packages/apps/Messaging/
+358c6ad messaging: Filter out SIP accounts from SelectAccountDialogFragments.
+
+   * packages/apps/PhoneCommon/
+59574f3 AmbientDataSubscription: Allow subscriptions to run different queries
+
+   * platform_manifest/
+b5a39a0 default: Add cmsdk-api-coverage tool to manifest.
+
+   * vendor/aicp/
+bb9111b cm: Use cmsdk-api-coverage executable for coverage.
+
+   * vendor/cmsdk/
+ed4fab0 cmsdk: Add CustomTileListenerService tests.
+ead04fd cmsdk: Provide test coverage to Profile's *Settings classes.
+8fbb66f cmsdk: Provide tests for Profile.ProfileTrigger interfaces.
+
+====================
+     06-13-2016
+====================
+
+
+====================
+     06-12-2016
+====================
+
+
+   * build/
+349d762 Add hosts and custom files persistance on flash
+
+   * frameworks/base/
+3acb1ed Add package icon to optimizing apps boot dialog
+
+   * vendor/aicp/
+4c29b00 flounder: update build fingerprint for MOB30M
+
+====================
+     06-11-2016
+====================
+
+
+   * device/qcom/common/
+9e9693e power: msm8952: process_video_encode_hint returns void
+
+   * frameworks/base/
+f602e69 Revert "base: start nfc service prior to systemui"
+6447951 SystemUI: fix NFC tile sometimes hiding
+fc51195 UsbDeviceManager: Remove charging from persisted function composition
+
+   * packages/apps/Bluetooth/
+acfd7c3 Bluetooth-OPP: Check URI of sending files before entry cleanup
+cf5fdf7 Set sJniAdapterServiceObj to NULL after deleting it
+02d9c10 Bluetooth: Using the eventHandler to start listener
+5080b9b Bluetooth OPP: Fix mismerge
+072643f Bluetooth: fix opp NPE
+
+   * packages/apps/Dialer/
+410c6f0 Ensure we have permissions before rebuilding database
+44dd71b Increment nudge only after shown intent returns
+
+   * packages/apps/Messaging/
+c042a5e Fixed storage permission issue for attachments Moved some audio library tab related string to cm_strings.xml
+
+   * packages/apps/PackageInstaller/
+a8189be Updated DE-translation for one faulty string.
+
+   * packages/apps/Settings/
+92cf4b8 Fix wrong label for Desktop backup password
+a5181ec Show more accurate internal storage capacity
+994bfb9 Settings: replace 3 dots with horizontal ellipsis
+1ecc318 String improvements
+
+   * system/bt/
+5365992 bt: Use the clock functions from libutils instead of clock_gettime
+c718527 bt: Unify usage of clock_gettime
+
+   * vendor/aicp/
+952ad5a cm: Give BootReceiver permissions to read fsck log
+
+====================
+     06-10-2016
+====================
+
+
+   * external/ahbottomnavigation/
+db5dd34 Updated Readme & changelog
+27658ee Updated versions
+5c90357 Updated Demo
+27ca79e Added constructor Added annotations for parameters
+3fa8147 Improved callback to update or not the UI when a tab is selected
+f1a367d Added elevation for bottom navigation layouts
+d25c076 Increased gradle version
+a492a57 Added notification elevation
+ba96907 Notification animates margin top in order to stick to the tab icon
+2745251 Added setSelected() for item icon
+98bac94 Improved Demo    * (added animations)
+
+   * external/skia/
+b632abe skia: qc-perf: link against libqc-opt for msm8937/17/53
+
+   * frameworks/av/
+fbef511 OMXCodec: Remove kClientNeedsFrameBuffer for S3D
+
+   * frameworks/base/
+2968689 Framework: allow ResolverActivity to be specialized from other package
+69523d6 keyguard: SIM Display Name is now a config
+
+   * packages/apps/Bluetooth/
+9792f96 Revert "Ensure synchronized access of JNI callback object"
+
+   * packages/apps/CMFileManager/
+bb9e0c5 Invalidate preferences headers when resuming
+
+   * packages/apps/CellBroadcastReceiver/
+0b8b02b Automatic translation import
+
+   * packages/apps/Contacts/
+5307288 Automatic translation import
+
+   * packages/apps/ContactsCommon/
+939ed41 Add valid number checks for block menu item
+
+   * packages/apps/Dialer/
+ddd4530 Automatic translation import
+5f286fd Performance tweaks for DeepLinkCache and icon retrieval.
+
+   * packages/apps/Gello/
+e6b6219 Automatic translation import
+
+   * packages/apps/InCallUI/
+ef8f4fc Automatic translation import
+
+   * packages/apps/Messaging/
+5203455 Automatic translation import
+
+   * packages/apps/OmniSwitch/
+e25308d OmniSwitch: Initial Dutch translations by Eric van Bokhoven
+
+   * packages/apps/Screencast/
+3de1b3f Automatic translation import
+
+   * packages/apps/Settings/
+7a261ba Settings: Initial Dutch translations by Eric van Bokhoven
+f52a8e8 Automatic translation import
+
+   * packages/apps/SoundRecorder/
+f2323e7 SoundRecorder: onConfigurationChanged dismiss popupmenu
+
+   * packages/providers/DataUsageProvider/
+ad02907 Automatic translation import
+
+   * platform_manifest/
+082d5cf manifest: add ahbottomnavigation library
+
+   * vendor/aicp/
+6707e3e shamu: Update fingerprint to MOB30M
+94aefb3 deb: Update fingerprint to MOB30M
+
+   * vendor/cmsdk/
+3cb6195 cmsdk: Provide coverage for serial number and unique device id.
+839c5f5 CMSettingsProvider: load provisioned flag when creating DB
+
+
+====================
      06-03-2016
 ====================
 
