@@ -1,4 +1,411 @@
 ====================
+     07-02-2016
+====================
+
+
+   * frameworks/base/
+3092961 Merge "Keyguard: Fix AGAIN for font size" into mm6.0
+
+   * packages/apps/Messaging/
+e063271 Remove identifier that causes warnings under OpenJDK 8 compiler
+
+====================
+     07-01-2016
+====================
+
+
+   * cts/
+f76218b merge in marshmallow-cts-release history after reset to marshmallow-cts-dev
+
+   * frameworks/base/
+703cdf9 Keyguard: Fix AGAIN for font size
+8adabf9 SystemUI: Updated NL Translations by Eric van Bokhoven
+add7c2d0 Adjust padding between battery icon and text
+
+   * packages/apps/AicpExtras/
+9bb58b5 AE: Updated NL translations by Eric van Bokhoven
+
+   * packages/apps/DUI/
+a663ed2 DUI: Updated NL translations by Eric van Bokhoven
+
+   * packages/apps/OmniSwitch/
+891d37f OmniSwitch: Updated NL translations by Eric Bokhoven
+
+   * packages/apps/Settings/
+df2a429 Merge "settings: Updated NL translations by Eric van Bokhoven" into mm6.0
+dbb904d settings: Updated NL translations by Eric van Bokhoven
+6080644 fingerpint: Allow devices to configure sensor location
+
+   * packages/apps/SoundRecorder/
+c8b4cf4 Add Bluetooth sound recording
+
+   * packages/providers/ThemesProvider/
+7d59e42 Cleanup icon preview generation code
+
+   * vendor/cmsdk/
+a400a7b Apply active profile if user enables system profiles
+
+====================
+     06-30-2016
+====================
+
+
+   * frameworks/base/
+70e053b Keyguard: Final fix for wrong date and clock font size on boot
+8869f9a Merge "Revert "PhoneWindowManager : Check CM_SETUP_WIZARD_COMPLETED for isUserSetupComplete"" into mm6.0
+24bd343 Revert "PhoneWindowManager : Check CM_SETUP_WIZARD_COMPLETED for isUserSetupComplete"
+da930a9 Merge "[FWB] Configurable Header Text Shadow (1/2)" into mm6.0
+45dbc43 Keyguard: Set default font size for clock and date
+4635e66 Automatic translation import
+d11eedf Revert "Revert "Only show keyguard panel if on lockscreen + no activity on top""
+2d81904 PhoneWindowManager : Check CM_SETUP_WIZARD_COMPLETED for isUserSetupComplete
+
+   * hardware/cyanogen/
+ce0c9b1 cmhw: Whitespace cleanup
+
+   * packages/apps/CMFileManager/
+377e629 Automatic translation import
+
+   * packages/apps/CarrierConfig/
+ad2308f feijao: Set voicemail's notification persistent.
+
+   * packages/apps/CellBroadcastReceiver/
+9dd2dfc Automatic translation import
+
+   * packages/apps/Contacts/
+6ecb91a Contacts metrics: corrected parsed timestamp values
+04561ba Contacts metrics: flip contacts merge order since they have dependency
+c6eb605 Send count stats with DIRECTORY_SEARCH events
+0ae5fd2 Automatic translation import
+
+   * packages/apps/Dialer/
+c03a3d7 Automatic translation import
+
+   * packages/apps/Gello/
+2c40f6b Gello: nuke unused/broken localized search engines
+00f154b Automatic translation import
+
+   * packages/apps/InCallUI/
+96e0f29 Automatic translation import
+
+   * packages/apps/LockClock/
+4ee0928 Automatic translation import
+
+   * packages/apps/Messaging/
+ba969ce Automatic translation import
+
+   * packages/apps/PhoneCommon/
+cbd20e8 Automatic translation import
+
+   * packages/apps/Settings/
+663e502 Automatic translation import
+6d32706 settings: wifi: Default to numeric keyboard for static IP items
+9f6af83 Settings: Set root access options appropriately
+d6de698 Fix untranslatable
+
+   * packages/apps/Snap/
+0ef0a63 Automatic translation import
+
+   * packages/apps/SoundRecorder/
+02cf1e2 Automatic translation import
+
+   * packages/inputmethods/LatinIME/
+da10ff6 Automatic translation import
+
+   * packages/providers/DataUsageProvider/
+02bc367 Automatic translation import
+
+   * packages/providers/TelephonyProvider/
+01a0a16 Fix apn restore issue for multi-sim
+
+   * packages/services/Telephony/
+902f1c6 Automatic translation import
+
+   * vendor/cmsdk/
+f5b949f Automatic translation import
+
+====================
+     06-29-2016
+====================
+
+
+   * device/qcom/common/
+3d10066 power: add support for PowerHAL in Feero
+
+   * frameworks/base/
+f824676 [FWB] Configurable Header Text Shadow (1/2)
+87c932e KeyguardSecurityViewFlipper : Fix sim unlock height overlap
+cdcd3e9 Disable proximity check on power key properly
+149d2e2 fw: GlobalActions: Always dismiss any existing dialog
+6649b44 FWB: Lockscreen clock and date font size (1/2)
+
+   * hardware/qcom/wlan-caf/
+b5ecb1d wifi-hal: Only try LOWI once
+
+   * packages/apps/AicpExtras/
+257a9f1 [AE] Configurable Header Text Shadow (2/2)
+ae7255a AE: Lockscreen clock and date font size (2/2)
+
+   * packages/apps/FMRadio/
+480142b Keep main activity when recording is cancelled
+3c0c276 Handle recording without using MediaRecorder
+a7db4dc Fix stuck recording ui when recording is aborted
+
+   * packages/apps/Gello/
+9aaaede Add Encrypted Google search engine
+
+   * packages/apps/Messaging/
+ea62dca Messaging: Use textutils to match against SIP scheme.
+
+   * packages/apps/OmniSwitch/
+37edf10 OmniSwitch: Allow open app as floating window
+
+   * vendor/cmsdk/
+fe99384 LLS: Allow default enabled events to be overlaid
+
+====================
+     06-28-2016
+====================
+
+
+   * bionic/
+2a016b8 cortex-a9: Fix reference to __memcpy_base_aligned.
+
+   * frameworks/opt/telephony/
+c63f77b Ims: remove use of old nonexistant qti constant
+f376988 IMS-VT: Remove unused QTI_IMS_CALL_RAT_EXTRA_KEY extra.
+d693f63 IMS: Encrypted Calling Extras Key Definition
+7d8c57a IMS: Interface change for VOPS and SSAC
+5f351cd IMS: Explicit call transfer feature
+
+   * packages/apps/CMFileManager/
+65db040 FileManager : Update to use toybox ls
+
+   * packages/apps/Settings/
+36cb3f4 Settings : Add country code to blacklist entry dialog
+
+   * vendor/aicp/
+568047c Merge "Remove APN pinternet.interkom.de from MCC 262/MNC 02" into mm6.0
+
+====================
+     06-27-2016
+====================
+
+
+   * device/qcom/common/
+229eb1a perf: Wrap v3 opcodes with ifdefs
+
+   * frameworks/base/
+8bee22c FWB: Add AICP logo to QS panel (1/2)
+ee388ca SystemServer: Do not start Atlas Service on lowram devices.
+
+   * packages/apps/AicpExtras/
+e66addf Fix the translation cancer
+af0f56d AE: Add AICP logo to QS panel (2/2)
+333427a AicpExtras: use accent colour for logo letters
+
+   * packages/apps/CMFileManager/
+95c92cb Fix crash when long press directory
+
+   * packages/apps/Settings/
+3a50b63 Make sure LiveDisplay toggle default values are correct.
+
+   * vendor/aicp/
+422eb8e Remove APN pinternet.interkom.de from MCC 262/MNC 02
+45f7279 Merge "Geehrc:BuildProb fingerprint" into mm6.0
+
+====================
+     06-26-2016
+====================
+
+
+   * device/qcom/common/
+8fe35cc power: msm8996: Support boost and perf profile hints
+
+   * frameworks/base/
+0d85cd9 SystemUI: Add margin in qs_tile_top between instruction text and add button
+ac9a09f Merge "Initial Greek Translation" into mm6.0
+1a5263a bootanimation: Call eglReleaseThread in threadLoop
+cd2f6ed Initial Greek Translation
+4a90953 Fix typo
+
+   * frameworks/opt/telephony/
+ad9b35b Subscription updater: don't turn data off if we've never set a deafult
+
+   * packages/apps/Bluetooth/
+4924f59 Revert "Revert "Ensure synchronized access of JNI callback object""
+
+   * packages/apps/ThemeChooser/
+f3ec936 Missing gr translation
+
+   * packages/providers/MediaProvider/
+f179407 Initial Greek Translation
+79471e4 MediaProvider: Initial NL translations by Eric van Bokhoven
+
+   * vendor/aicp/
+c8d07d9 Geehrc:BuildProb fingerprint
+
+====================
+     06-25-2016
+====================
+
+
+   * cts/
+8a3f20b Merge "DO NOT MERGE: disable libskia test." into marshmallow-cts-release
+f9c17e5 DO NOT MERGE: disable libskia test.
+9716730 Merge "DO NOT MERGE: disable libskia test." into marshmallow-cts-dev
+f4433c1 DO NOT MERGE: disable libskia test.
+3a87160 Merge "DO NOT MERGE Update TextViewTest to use KeyEventUtil for KeyEvents" into marshmallow-cts-dev
+
+   * frameworks/base/
+73e175a FWB: QS shade stroke dash (1/2)
+1be1681 FWB: VolumeDialog stroke dash (1/2)
+6710046 Missing translation
+
+   * frameworks/opt/net/wifi/
+a0ac5e1 Reduce the link de-bounce time to 4 from earlier 7 seconds
+012e76c Wifi: Clear scan caches while loading configured networks
+80dfbc2 wifi: Use isGbkString() to check if SSID is GBK encoded
+bb5d2c2 Wifi: Update Frequency before broadcasting intent
+045ddba Wifi: send an explicit ENABLE_NETWORK with "no-connect"
+c17a63e Wifi: Unblacklist the BSSIDs, if driver roams to the same again.
+f995ef7 Wifi : Add null check before accessing ScanDetailCache
+c06efae Wifi: Add NULL check before processing gscan results
+faada83 P2P: p2p flush on a group remove event.
+cbe286e wificonfig: store the scan cache for saved wifi configuration
+e97c943 Don't create ScanDetailCache if entry absent in mScanDetailCaches
+22b3c71 Wifi: Update WifiController state if Wifi turn On fails
+6c7911a Wifi: Clear lastConnectAttemptTimestamp variable on a Wifi turn off
+
+   * hardware/qcom/wlan-caf/
+0d2f41b Wifi-HAL: Remove CLANG Warnings and errors
+c2297ee Revert "Opt out of clang till issues are fixed"
+4f6277b Wifi-Hal: NAN feature enhancements
+89f9c6d Wifi-HAL: Remove NAN_2.0 references
+
+   * hardware/ril-caf/
+eb67a6f ril-caf: Fix build when using prebuilt libril
+
+   * packages/apps/AicpExtras/
+3d661d4 AE: QS shade stroke dash (2/2)
+f93aaff AE: VolumeDialog stroke dash (2/2)
+e851c94 Updated DE-translations
+
+   * packages/apps/DUI/
+5906841 Updated DE-translations
+
+   * packages/apps/Dialer/
+d636774 Greek Translation of smart options
+
+   * packages/apps/FMRadio/
+387bb91 Remove false log warnings
+a1649aa Fix exponential content observer registration
+
+   * packages/apps/Settings/
+f0f2f37 UI: Ensure "use for" options displayed when in landscape orientation
+
+   * system/core/
+aafd283 Set zygote process priority to -20 to speed up VM startup time.
+
+   * vendor/cmsdk/
+4b18266 Themes: Provide 100% test coverage for themes
+
+====================
+     06-24-2016
+====================
+
+
+   * cts/
+057b418 Merge changes from topic 'backport-selinux-test' into marshmallow-cts-dev
+0624a71 Merge "Detect if file system is already encrypted by other means." into marshmallow-cts-dev
+65540be Merge "Fix TaskswitchingDeviceTest." into marshmallow-cts-dev
+
+   * device/qcom/sepolicy/
+00e8cab file_contexts: Adding context to block devices
+
+   * external/DUtils/
+c43716a Smartbar/Fling Volume panel action [1/2]
+
+   * frameworks/base/
+e1b1834 Stroke: Increase default corner value (1/2)
+ccab8ff wifi: Enable WiFi IpReachabilityMonitor by default
+
+   * frameworks/opt/net/wifi/
+88db18e wifi: Bring back mIsWiFiIpReachabilityEnabled check
+
+   * packages/apps/AicpExtras/
+451b500 Use snackbar instead of toast when exiting with Back button
+dd35ade Stay on active fragment on device rotation
+a64fbce Don't close nav drawer on device rotation
+5d35a34 Stroke: Increase default corner value (2/2)
+ec3e884 AE: fix malformed string
+076527f Directly Launch cLock Weather settings
+
+   * packages/apps/CMFileManager/
+70addac Fix no icon for 3GP files
+faa6c46 Assign application/octet-stream to unknown file extensions
+92ac0ff Remove send/send multiple if intent doesn't resolve to any activity
+
+   * packages/apps/DUI/
+4bb0a09 Smartbar/Fling Volume panel action [2/2]
+
+   * packages/services/Telephony/
+c4a3085 Make sure National data roaming is off when no active subscriptions
+
+   * vendor/aicp/
+6a1d32c Kenzo : Add Device Mantainer
+
+====================
+     06-23-2016
+====================
+
+
+   * cts/
+a578fc5 Detect if file system is already encrypted by other means.
+7df61f5 Merge "Improve resiliency of message parser in the case that events are missing" into marshmallow-cts-dev
+
+   * device/qcom/sepolicy/
+af49dbd dpm: Let dpmserviceapp create its subdirs
+
+   * external/chromium-webview/
+3f0ac07 webview: Update to 51.0.2704.106
+
+   * frameworks/base/
+cb899f1 MediaScanner behavior on boot [2/3]
+88951fc FWB: QS shade stroke (1/2)
+
+   * frameworks/opt/net/wifi/
+6d15b6e hotspot: Add a fallback to model-name for SSID
+
+   * packages/apps/AicpExtras/
+04b1c84 MediaScanner behavior on boot [3/3]
+04a5bbc Transparency porn -> Panel porn
+5309c69 AE: QS shade stroke (2/2)
+
+   * packages/apps/CMFileManager/
+994dd34 Navigate to path when launched from folder shortcut
+
+   * packages/apps/Gello/
+92772af Missing search engines Fix Gello options dialog crash when system language is Russian
+
+   * packages/providers/MediaProvider/
+0258960 MediaScanner behavior on boot [1/3]
+fd6f7e7 Permissions: Add READ_EXTERNAL_STORAGE to AndroidManifest
+
+   * platform_manifest/
+1a1e9fe add msm8996 hal from cm
+35a8c7d manifest: track MediaProvider locally
+dfd49f8 android: Switch to our chromium-webview
+
+   * system/bt/
+2e63e65 bt: Don't use CLOCK_BOOTTIME where CLOCK_MONOTONIC was expected
+
+   * vendor/aicp/
+4a237d6 Merge "Welcome OnePlus 3" into mm6.0
+5f9cfa2 Welcome OnePlus 3
+d40c2e8 Welcome Kenzo!
+
+====================
      06-19-2016
 ====================
 Grand duos specific changes
