@@ -1,0 +1,411 @@
+====================
+     07-20-2016
+====================
+
+
+   * hardware/ti/wlan/
+0d6fc9d wl12xx_sdio: Use pdata power callback if defined (needed before probe)
+
+   * packages/apps/Snap/
+6849076 Snap: Fix incorrect default ISO values parameter
+bd63e9d Snap: Always allow 100% JPEG quality to be set
+
+====================
+     07-19-2016
+====================
+
+
+   * bionic/
+4e64650 Move tzdata scripts from bionic to external/icu
+
+   * device/qcom/common/
+5113c19 power: 8996: Fix only sending the first pair out of every perf profile
+
+   * external/icu/
+3212c40 icu: Fix Kurdish Arabic locale detection
+f4bb19e icu: Add Asturian ICU files
+63fe352 Add a documentation file for tools
+9be3323 Extract ICU .dat / .jar file generation code
+8113823 Move tzdata scripts from bionic to external/icu
+
+   * frameworks/base/
+da37ffa Merge "Revert "Disable proximity check on power key properly"" into mm6.0
+49b4519 Revert "Disable proximity check on power key properly"
+
+   * system/bt/
+ab5b13b bta: check if sdp db buffer exists before free
+
+====================
+     07-18-2016
+====================
+
+
+   * hardware/ti/wlan/
+2a8637c wl12xx: Ignore auto-generated net/wireless/regdb.c
+
+   * vendor/aicp/
+a8874cd Merge "vendor_aicp: add h811" into mm6.0
+33e81d8 vendor_aicp: add h811
+2ecb426 Merge "Update gemini.mk" into mm6.0
+5b5b437 Movistar [ES] APN updates
+9dc0dfa Update gemini.mk
+
+====================
+     07-17-2016
+====================
+
+
+   * build/
+d24c403 Add LOCAL_AIDL_FLAGS
+
+   * device/qcom/common/
+ac2ef6c power: 8937: All in with mpctl v3
+85f0d13 power: 8937: Split from msm8952
+589ebd5 power: msm8937 also uses mpctl3
+
+   * frameworks/base/
+1a45335 Merge "Revert "FWB: Volume Dialog: Force expanded mode 2/2"" into mm6.0
+a5d1434 Revert "FWB: Volume Dialog: Force expanded mode 2/2"
+54f9d90 Automatic translation import
+11be3c9 AIDL: Add option to generate No-Op methods
+
+   * hardware/ril-caf/
+24443ad ril: Fix kw banned functions
+bc30017 libril: Fix KW issues
+8d51a54 ril: SAP_DISCONNECT response length will be zero
+
+   * packages/apps/DeskClock/
+fb9762a Fix translatability of power on alarm strings
+
+   * packages/apps/InCallUI/
+5164cfb Automatic translation import
+
+   * packages/apps/Messaging/
+e3e5b99 Messaging: fix cursor not close explicitly
+
+   * packages/apps/Nfc/
+d7cee1b Nfc: read extra properties of Mifare Classic
+
+   * packages/apps/OmniSwitch/
+1f5ad23 Added DE-translations for Launcher mode.
+
+   * packages/apps/Settings/
+e6482ef Merge "Revert "Settings: Volume Dialog: Force expanded mode 1/2"" into mm6.0
+6420264 Revert "Settings: Volume Dialog: Force expanded mode 1/2"
+1de26dc Automatic translation import
+
+   * packages/services/Telephony/
+a758d3d Automatic translation import
+
+   * system/core/
+ea9dd65 Merge branch 'cm-13.0' of https://github.com/CyanogenMod/android_system_core.git into new
+45bf576 healthd: Check if battery device exists instead of charger drivers before setting fake properties.
+
+   * vendor/aicp/
+aead5d0 cm: minor IMS APN update
+1b7afca hammerhead: update build fingerprint and description to MOB30P
+da52884 hammerheadcaf: Update build fingerprint and description to MOB30P
+
+   * vendor/cmsdk/
+fac3aba Automatic translation import
+20f228e Instruct AIDL to generate NoOp inner class
+
+====================
+     07-16-2016
+====================
+
+
+   * art/
+7592c94 add missing include
+
+   * build/
+b488f63 Revert "build: Use the password manager for the verity key if possible"
+
+   * frameworks/base/
+4ad359d FWB:Pulse Solid Bar Sanity Levels & Lavalamp Anim Speed [1/3]
+
+   * frameworks/native/
+839f0dd system_server BINDER_TYPE_FD driver ashmem accessors
+d70043e system_server BINDER_TYPE_FD sockets using ashmem accessors
+e481771 Parcel: file descriptor leak
+0c5f3af sf: Make sure HWC_BLENDING_NONE is set for opaque layer
+
+   * packages/apps/AudioFX/
+016be36 Automatic translation import
+
+   * packages/apps/Browser/
+de4fa4a Automatic translation import
+
+   * packages/apps/CMFileManager/
+a458fc2 Automatic translation import
+
+   * packages/apps/Contacts/
+604c2d0 Contacts : fix quick contacts card invite entry
+
+   * packages/apps/DUI/
+a59814e Solid Bar Sanity Levels, Lavalamp Speed, and Sliders [2/3]
+5f0abee SmartBar: fix bar alpha when pulse enabled and music paused from lockscreen
+
+   * packages/apps/Eleven/
+16c100d Automatic translation import
+
+   * packages/apps/Gello/
+fba5fea Automatic translation import
+
+   * packages/apps/Messaging/
+cce9f27 Automatic translation import
+
+   * packages/apps/Settings/
+3c487d6 Settings: Don't enable proximity on wake by default
+7f8eb86 Solid Bar Sanity Levels, Lavalamp Speed, and Sliders [3/3]
+
+   * packages/apps/Snap/
+ee21895 Automatic translation import
+
+   * packages/apps/Trebuchet/
+b1f2d43 Automatic translation import
+
+   * system/core/
+53bf234 libcutils: abort for invalid fd
+70a8c7a libcutils: ashmem print error message for invalid fd
+2895e11 libcutils: ashmem check fd validity
+b619152 libcutils: ashmem fortify and comply with Android coding standard
+
+   * vendor/aicp/
+d87c3cf Revert "cm: add selective based spn (2/2)"
+
+====================
+     07-15-2016
+====================
+
+
+   * build/
+e2070ee build: Use the password manager for the verity key if possible
+9a1577b Revert "build: Use the password manager for the verity key if possible"
+
+   * device/qcom/common/
+8726f0c qcom-common: Add QC releasetools and recovery extensions
+
+   * frameworks/base/
+7e0e088 StatusbarWeather: Obey inverted statusbar ONLY when color is white
+63017b3 pm: Fix lock insanity with ActivityManager
+f64e93a keyguard: Set FLAG_SHOW_WALLPAPER when shwowing media
+
+   * frameworks/opt/telephony/
+40e0940 GsmSS: Use per-slot resources for carrier-bound options
+
+   * packages/apps/CellBroadcastReceiver/
+248b0a9 Automatic translation import
+
+   * packages/apps/Contacts/
+1e847a2 Automatic translation import
+
+   * packages/apps/Dialer/
+b582bc0 Automatic translation import
+94688d0 Automatic translation import
+fb43a5c Automatic translation import
+
+   * packages/apps/Messaging/
+0b4bbc6 Automatic translation import
+
+   * packages/apps/OmniSwitch/
+f29f673 OmniSwitch: launcher mode - remember state
+
+   * packages/apps/Settings/
+de5c503 Automatic translation import
+b375576 Automatic translation import
+
+   * packages/apps/Snap/
+82254d7 Automatic translation import
+
+   * packages/apps/SoundRecorder/
+82fad26 Automatic translation import
+
+   * packages/apps/Trebuchet/
+0121133 Automatic translation import
+2a6dab8 Automatic translation import
+
+   * packages/services/Telephony/
+5cbc60c Automatic translation import
+
+====================
+     07-14-2016
+====================
+
+
+   * device/qcom/sepolicy/
+8e21ef8 wcnss: Fix I40eeb6895f1c5550813bf8b4182e33f9a4dc5dfd
+6bfb7ff wcnss: Fix annoying warning when ptt looks for its log dir
+
+   * frameworks/base/
+3639f97 AicpLogo: Obey inverted statusbar ONLY when color is white
+4ec2e2c CarrierLabel: Obey inverted statusbar ONLY when color is white
+be29d2c SystemUI: Themes are translatable
+d8daff7 Fix NPE on longpressing music notification
+3a31057 Merge "FWB: Clock color master switch (1/2)" into mm6.0
+ac7ecb2 Merge "Pulse 2.0 Advanced Audio/Visual Rendering [3/3]" into mm6.0
+
+   * frameworks/opt/net/wifi/
+4b47385 p2p: Add a fallback to model-name for wifi direct
+
+   * packages/apps/CellBroadcastReceiver/
+b90e231 Automatic translation import
+
+   * packages/apps/Contacts/
+d88e116 Automatic translation import
+
+   * packages/apps/Dialer/
+b62f822 [3/4] Add cancel callback for BlockContactDialog
+
+   * packages/apps/InCallUI/
+e3bb197 [4/4] Add cancel callback for BlockContactDialogCallbacks
+
+   * packages/apps/Messaging/
+90c8adf Automatic translation import
+
+   * packages/apps/Settings/
+f4abbc3 Merge "Settings: Always set ramp-up time value during bindView" into mm6.0
+8255b84 Settings: Always set ramp-up time value during bindView
+
+   * packages/apps/Snap/
+188c35d Automatic translation import
+14264df Snap: Tighten openLegacy() try-catch block
+
+   * packages/apps/SoundRecorder/
+236950f Automatic translation import
+
+   * vendor/aicp/
+e3d94a9 cleanup vodafone germany apns
+c63877c Geehrc:Buildprob Maintainer Fix
+
+====================
+     07-13-2016
+====================
+
+
+   * device/qcom/common/
+b80081c Remove libinit_msm
+
+   * frameworks/base/
+2a7cb7f FWB: Clock color master switch (1/2)
+f0e88a5 SettingsProvider: fix data_enabled default lookup
+43fc33c Pulse 2.0 Advanced Audio/Visual Rendering [3/3]
+de6d068 Automatic translation import
+
+   * packages/apps/AicpExtras/
+390d9aa Merge "fix translation " into mm6.0
+
+   * packages/apps/CMFileManager/
+fc89b23 Automatic translation import
+
+   * packages/apps/CellBroadcastReceiver/
+ce041cf Automatic translation import
+
+   * packages/apps/Contacts/
+6aebf68 [2/4] Add cancel callback for BlockContactDialog
+
+   * packages/apps/ContactsCommon/
+b9ecf21 [1/4] Add cancel callback for BlockContactDialog
+
+   * packages/apps/DUI/
+62445b8 Pulse 2.0 Advanced Audio/Visual Rendering [1/3]
+
+   * packages/apps/Gello/
+36aff52 Automatic translation import
+
+   * packages/apps/InCallUI/
+5099c4a Don't search LookupProvider for emergency calls
+
+   * packages/apps/Settings/
+161a86c Settings: Clock color master switch (2/2)
+a178ebf Pulse 2.0 Advanced Audio/Visual Rendering [2/3]
+208d0f7 Automatic translation import
+
+   * packages/apps/Snap/
+3f9223e Automatic translation import
+
+   * packages/apps/SoundRecorder/
+f780c6f Automatic translation import
+
+   * packages/apps/Trebuchet/
+79936da Automatic translation import
+5bcc39e Automatic translation import
+
+   * packages/apps/TvSettings/
+375e251 Automatic translation import
+
+   * packages/services/Telecomm/
+f788b52 Automatic translation import
+
+   * packages/services/Telephony/
+96a4b72 Automatic translation import
+
+   * system/extras/
+0d598af ext4_utils: Fix warning when compiling C++ code
+
+   * vendor/aicp/
+7e8d562 Merge "bullhead: update fingerprint to MTC19Z" into mm6.0
+2badd94 bacon: update AICP maintainers
+
+====================
+     07-12-2016
+====================
+
+
+   * build/
+da21611 build: Use the password manager for the verity key if possible
+
+   * frameworks/base/
+de6d632 pm: Avoid filtering out protected components in implicit queries.
+63f9f9f Adjust padding between battery icon and text
+72d1818 Merge "Revert "Adjust padding between battery icon and text"" into mm6.0
+a2219ec Revert "Adjust padding between battery icon and text"
+
+   * packages/apps/AICP_OTA/
+29f1975 Fix up storage permission request
+
+   * packages/apps/AicpExtras/
+e078347 AS: Updated NL translations by Eric van Bokhoven
+72003b3 fix translation
+
+   * packages/apps/DUI/
+55c21b6 DUI: Updated NL translations by Eric van Bokhoven
+
+   * packages/apps/Dialer/
+799028b Bump version code and name
+47f10fc Dialer: Add option to open dialpad at start
+1a5c107 Remove hard dependency on proprietary smartsearch lib
+
+   * packages/apps/Settings/
+1034c20 settings: Updated NL translations by Eric van Bokhoven
+ded36d1 Get rid of ugly dialog in radio info
+
+   * system/extras/
+cae0f79 verity: Split the signer arguments correctly
+
+   * vendor/aicp/
+355a1eb bullhead: update fingerprint to MTC19Z
+
+====================
+     07-11-2016
+====================
+
+
+   * frameworks/base/
+11d4e31 Added DE-transaltions for Aicp-Memo in fwb
+
+   * packages/apps/AicpExtras/
+453c359 Updated DE-translations
+
+   * packages/apps/DUI/
+5fc76f0 Added DE-Translations for SmartBar editor
+
+   * packages/apps/Settings/
+8a1b826 Updated DE-translations Added "intelligent pulldown" from cm_strings.xml and translated
+17fec42 Settings: Add adaptive display mode desc. strings
+
+   * system/core/
+5b537bb healthd: Check if battery device exists instead of charger drivers before setting fake properties.
+
+   * vendor/aicp/
+ba6895c jfltexx: Update build fingerprint
