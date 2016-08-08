@@ -1,0 +1,425 @@
+====================
+     08-07-2016
+====================
+
+
+   * frameworks/base/
+6d262dd Halo: Add more info to tutorial on first run
+9ed1afd [1/3] base: make overlay permission check configurable
+
+   * packages/apps/PackageInstaller/
+25efb0c [3/3] PackageInstaller: make overlay permission check configurable
+
+   * packages/apps/Settings/
+46c3db2 [2/3] Settings: make overlay permission check configurable
+
+====================
+     08-06-2016
+====================
+
+
+   * device/qcom/sepolicy/
+e768002 sepolicy: Re-add legacy IOP rules
+
+   * frameworks/base/
+f00d7a0 Halo: Fix up header button icon, position and animation
+
+   * packages/apps/AicpExtras/
+61670ec AE: Halo settings part
+
+   * packages/apps/OmniSwitch/
+18d0114 OmniSwitch: launcher: no ripple no fun
+e54d6cc OmniSwitch: revert recent apps should not change order in quick switcher
+aec0c61 OmniSwitch: launcher: change essentials launch intents
+
+   * vendor/aicp/
+aa91748 bullhead: update build fingerprint
+
+====================
+     08-05-2016
+====================
+
+
+   * bionic/
+9259508 linker: Avoid logcat spam with some blobs
+
+   * build/
+c6a67d6 build: Readd msm7x27a to QCOM Targets
+
+   * device/qcom/common/
+b6d2e17 power: Undo video decode hint for ondemand
+6d70cd4 power: Simplify display_hint_sent
+a277d81 dtbtool: use O_TRUNC when writing to output file
+
+   * device/qcom/sepolicy/
+389ac93 Revert "SElinux policy rules addition for early audio feature"
+67e8ca4 sepolicy: Fix garbage in upstream commit
+336f62d seandroid: allow QFP dameon access to Android services
+b3462b5 sepolicy: Add policy for VR service
+baf2605 sepolicy: remove exec permission for radio
+059f042 sepolicy: Add permissions for new dsp node
+4b5b2a6 Location: added media server access permission for test app
+d57bfb0 SEPolicy: Update SePolicy for IOP
+3ef4b4e SElinux policy rules addition for early audio feature
+ab4f654 sepolicy: add permissions for i2c-6 device
+31b1b4e sepolicy : add inital rule to bootanimation.
+022cf47 sepolicy: Add secontexts boot and persist.nativehmi.exit
+2ea5845 sepolicy : Allow bootkpi access to system apps and vold
+7238b66 common: add selinux policy for fastmmi
+1f9a147 sepolicy: Policy for SmartcardService
+761fd2e sepolicy: allow fstman write permissions to wifi directory
+e86bd46 sepolicy: update iop socket path
+239af30 sepolicy: Mark time_daemon domain as mlstrusted
+
+   * frameworks/base/
+105258b Halo: Reverse message bubble bg and text colors
+e27fb1e [1/2] Frameworks: HALO
+fa3336f Merge "Frameworks: Change default Animation scale value to 0.5 for real (2/2)" into mm6.0
+c6ec2a0 Revert "Adding back pdf_printer_media_sizes for values-zh-rCN to accomodate mediasize_default"
+74dbd29 fw: enforce android.permission.PREVENT_SYSTEM_KEYS in system server
+3fe9bae Frameworks: Change default Animation scale value to 0.5 for real (2/2)
+894adf3 bootanimation: add multithreaded decode
+a3d355d SystemUI: Display bluetooth battery status when available
+
+   * frameworks/native/
+3b418d6 Fixed stylus eraser being rejected by palm rejection
+
+   * frameworks/opt/hardware/
+91cb338 Revert "cmhw: Add PictureAdjustment stubs"
+
+   * packages/apps/AicpExtras/
+94c2483 Remove % string call and simplify Seekbar code in NotificationFragment
+
+   * packages/apps/Bluetooth/
+2132084 bluetooth: Broadcast battery status
+
+   * packages/apps/CMFileManager/
+5d690dd Add ape file mimetype
+
+   * packages/apps/InCallUI/
+4a76f83 GlowpadView: Properly scale ring for block option
+
+   * packages/apps/Messaging/
+3aaac3a Use app settings for conversation settings if no custom set
+
+   * packages/apps/Settings/
+01f2d8c [2/2]Settings: halo
+5ffcc71 Settings: Change default Animation scale value to 0.5 for real (1/2)
+287194e Allow restricted users to change status bar settings
+
+   * packages/apps/Snap/
+c4762ff snap: fix untraslatables
+
+   * packages/services/Telecomm/
+c79a663 InCallController: don't strip can send SMS capability on MSIM
+
+   * packages/services/Telephony/
+afc7391 MobileNetworkSettings: Check CarrierConfig on isWorldMode
+8106b2a EditPhoneNumberPreference: Prevent empty text from being set
+
+   * vendor/aicp/
+74c577a cm: extract_utils: Add a firmware extraction method
+70be944 cm: extract_utils: Fixup xml files
+c50569e cm: extract_utils: Implement oat2dex
+c6359d1 cm: sepolicy: Fix the vold blkid.tab denial from recovery
+
+   * vendor/cmsdk/
+c82d693 Revert "cmsdk/livedisplay: Add support for picture adjustment"
+72da93a cmsdk/livedisplay: Add support for picture adjustment
+af0b778 cmhw: Add support for display mode remapping
+7c7daba livedisplay: Enable by default
+
+====================
+     08-04-2016
+====================
+
+
+   * bionic/
+545862d bionic: Sort and cache hosts file data for fast lookup
+
+   * frameworks/base/
+02223d5 FWB: Navigation drawer text color settings (1/2)
+4edd59f framework: don't allow assist activities while not provisioned
+
+   * frameworks/native/
+542b068 surfaceflinger: Fix uninitialized variable
+da998f4 surfaceflinger: Unbreak casting and other use cases
+52b8462 surfaceflinger: Add check for number of queued buffers
+
+   * frameworks/opt/telephony/
+5e8f9c3 DCT: Tear down MMS+default connections raised by config_enable_mms_with_mobile_data_off
+
+   * packages/apps/AicpExtras/
+8100adf Nav drawer bg color needs to obey themes if set to default
+467b6a3 AE: Navigation drawer text color settings (2/2)
+91d7752 PrimaryColor: Indigo -> Grey 900
+bb8f825 Enable displayHomeAsUp for the new ActionBars
+
+   * packages/apps/Snap/
+51be6e8 Revert "SnapdragonCamera: Fix AEC lock issue after non-zsl snapshot."
+45769ae snap: Add constrained longshot mode
+81110de snap: Additional fixes for auto-HDR mode
+1ccf372 snap: Fixes for advanced features and scene modes
+d91acef snap: Always turn touch-af-aec on
+8fef7ac snap: Add missing resource
+38a5e13 SnapdragonCamera: Fix the advanced features relative toast issue
+846dc6a SnapdragonCamera: implement optizoom and chromaflash UI
+9a1d5c2 SnapdragonCamera: Fix panorama cancel button location
+ee8c922 SnapdragonCamera: Fix the issue that camera control is removed
+a58a537 SnapdragonCamera: Add manufacture and model info
+2a3c90c SnapdragonCamera: adjust video recording duration margins
+53a2b18 SnapdragonCamera: Fix incorrect focus mode
+72cf374 SnapdragonCamera: resolve touch af issue during countdown
+16ac0c5 SnapdragonCamera: Add support for outputting MPO format files
+e5d300a SnapdragonCamera: Removing unnecessary orientation check
+96c7df0 SnapdragonCamera: Fix viewfinder flashing issue in camcorder mode
+72a66ba SnapdragonCamera: hide the preview surface during suspend
+4180e3b SnapdragonCamera: Resolve camera control overlapping issue
+5bb6fe3 Fix android.process.media got killed when capture
+c58924a SnapdragonCamera: Fix missing icon issue in error condition
+038809e SnapdragonCamera: Reset menu when device is rotated
+b2b382b SnapdragonCamera: fix null pointer exception
+26d9ea2 SnapdragonCamera: Fix menu highlight issue when rotating device
+d1712aa SnapdragonCamera: Adding null exception handler.
+f64b94c SnapdragonCamera: Register media status listener
+f5fb6cf SnapdragonCamera: Removing filmstrip view touch handler
+2609176 SnapdragonCamera: Adding current camera null check
+1f74331 SnapdragonCamera: Adding toast for media recording failure.
+f10d6c1 SnapdragonCamera: Improving Burstmode performance
+69d1c4d SnapdragonCamera: Do not update panorama thumbnail when cancelled
+48feef9 SnapdragonCamera: Fix crash issue with enable FD with TruePortrait
+e99828d VideoModule: Removing tmpPath and use path
+a2794ea SnapdragonCamera: Handle startPreview exception in camera.
+7383a2d SnapdragonCamera: Fix to make back key event work normally
+bc53629 SnapdragonCamera: Reset navigation bar state whenever screen turns on
+e039354 SnapdragonCamera: Always enable FD with TruePortrait on
+48a4d32 SnapdragonCamera: Fix progress indicator overlapped by thumbnail icon
+a93b185 SnapdragonCamera: Fix the preview thumbnail issue
+20a0405 SnapdragonCamera: Fix not able to view other pictures when macro mode
+322b414 SnapdragonCamera: Reduce the latency for panorama preview starting
+e0b7ffe SnapdragonCamera: Limit preview size by capping display dimensions.
+8e75470 SnapdragonCamera: add button border
+1ff17d7 SnapdragonCamera: Fix app freeze when connect to camera failed
+902626f SnapdragonCamera: Use StorageManager for SDCard
+fb876ae SnapdragonCamera: Fix display smaller thumbnail on panorama preview
+
+   * platform_manifest/
+ce6abde Merge "Revert "manifest: track fw_native locally (again)"" into mm6.0
+481f034 Revert "manifest: track fw_native locally (again)"
+
+====================
+     08-03-2016
+====================
+
+
+   * frameworks/base/
+02c7b69 FWB: Reorganize header a little and add header bg (1/2)
+4fac0a2 FWB: Navigation button transparency (3/3)
+d3a847e Merge changes Ia5cbbf92,I9b51088e,I3c9d347a into mm6.0
+9d76b35 Merge "SystemUI: vector support for AICP ImageHelper" into mm6.0
+b6b9d1a SystemUI: vector support for AICP ImageHelper
+dfc192d SystemUI: Add vector support to SlimRecents
+9fea548 am: Notify zygote of font change in ActivityManagerService
+31864b9 SysUI: Add theme manager permission
+4873fba Themes: Add permission to themes protected broadcasts
+
+   * packages/apps/AicpExtras/
+8914b5f [HAX] ActionBar all around the house
+
+   * packages/apps/DUI/
+a490da6 DUI: Navigation button transparency (1/3)
+
+   * packages/apps/Eleven/
+4961f4e Merge "handle media keys" into cm-13.0
+
+   * packages/apps/Nfc/
+dba2e6b Merge tag 'android-6.0.1_r61' into mm6.0
+
+   * packages/apps/OmniSwitch/
+793436c OmniSwitch: launcher: dont force using a chooser for the set wallpaper intent
+
+   * packages/apps/PackageInstaller/
+0f6a9a8 Merge branch 'android-6.0.1_r61' into mm6.0
+
+   * packages/apps/Settings/
+a091899 Amber is the new red for SeekBar thumb
+acec1e5 Settings: Navigation button transparency (2/3)
+
+   * packages/services/ThemeManagerService/
+e055a57 Remove Themes Tile Methods & and fix Compile
+
+   * platform_manifest/
+0ad4b6f Merge "manifest: track fw_native locally (again)" into mm6.0
+7612d67 manifest: track fw_native locally (again)
+d9efa71 Track ackages_services_ThemeManagerService locally
+3d872f9 manifest: Add ThemeManagerService
+
+   * vendor/aicp/
+839a991 Tele2 (LT) APN updates
+9e8b424 Merge "Remove dubuggable by default for all devices" into mm6.0
+d217db9 Remove dubuggable by default for all devices
+0b6a46d config: Add ThemeManagerService to PRODUCT_PACKAGES
+d11f570 sepolicy: Put theme service in its own context
+ce3a8f5 shamu: Update fingerprint to MOB30W
+e6fb57d angler: Update fingerprint to MTC20F
+
+   * vendor/cmsdk/
+97373c7 Themes: Broker the theme service
+
+====================
+     08-02-2016
+====================
+
+
+   * build/
+158fadf Merge tag 'android-6.0.1_r61' into mm6.0
+
+   * external/libavc/
+6718ae7 Merge tag 'android-6.0.1_r61' into HEAD
+
+   * external/sepolicy/
+ae9a996 Merge "Merge branch 'android-6.0.1_r61' into mm6.0" into mm6.0
+f103279 Merge "expose control over unpriv perf access to shell" into mm6.0
+6a6964e Merge branch 'android-6.0.1_r61' into mm6.0
+
+   * frameworks/av/
+aa98968 Merge tag 'android-6.0.1_r61' into HEAD
+
+   * frameworks/base/
+75a000d Merge tag 'android-6.0.1_r61' into mm6.0
+dc2dae0 Update Slim Recent App Sidebar (1/2)
+ad13248 SystemUI: avoid null tile creation
+
+   * frameworks/native/
+2ab013d Merge tag 'android-6.0.1_r61' into HEAD
+b86bb46 sf: Fix compliation for non-8996 platforms
+
+   * frameworks/opt/net/wifi/
+705773d Merge tag 'android-6.0.1_r61' into HEAD
+
+   * frameworks/opt/telephony/
+68fd771 Merge tag 'android-6.0.1_r61' into mm6.0
+
+   * packages/apps/AicpExtras/
+a7f8680 AE: Reorganize header a little and add header bg (2/2)
+
+   * packages/apps/DeskClock/
+0aab72b Automatic translation import
+
+   * packages/apps/Settings/
+67aff6a Update Slim Recent App Sidebar (2/2)
+
+   * packages/services/ThemeManagerService/
+256ba47 Initial code checkin
+
+   * platform_manifest/
+9cfebf8 manifest: Merge tag 'android-6.0.1_r61' into mm6.0
+
+   * system/bt/
+ccde045 Merge tag 'android-6.0.1_r61' into HEAD
+
+   * system/core/
+4b5c423 Merge tag 'android-6.0.1_r61' into mm6.0
+
+   * vendor/aicp/
+6e2ffdf flounder: update fingerprint to MOB30W
+
+   * vendor/cmsdk/
+914c11c livedisplay: Tweak defaults
+
+====================
+     08-01-2016
+====================
+
+
+   * frameworks/base/
+d11cdc3 Automatic translation import
+954e105 SystemUITuner: Remove menu from action bar
+
+   * frameworks/native/
+193a8c9 surfaceflinger: Isolate S3D code to msm8996 only
+534f857 surfaceflinger: Cleanups for blur
+f5486d6 sf: Allow HWC composition of virtual displays for HDMI primary
+537364c SF: Add support to draw S3D framebuffer target
+
+   * frameworks/opt/hardware/
+a8ef044 cmhw: Add PictureAdjustment stubs
+
+   * packages/apps/AicpExtras/
+24bc91d AE: Add Settings for AE and initial tunables (2/2)
+
+   * packages/apps/CellBroadcastReceiver/
+4cc0ece Automatic translation import
+
+   * packages/apps/Dialer/
+8582b42 Automatic translation import
+
+   * packages/apps/Gello/
+e4bb564 Automatic translation import
+
+   * packages/apps/OmniSwitch/
+9dfbc3d OmniSwitch: handle overlay permission failures gracefully
+
+   * packages/apps/Settings/
+353b5d7 Automatic translation import
+
+   * packages/apps/Trebuchet/
+753e2ad Automatic translation import
+
+   * vendor/aicp/
+fb0dde9 sepolicy: More IOP rules
+
+   * vendor/cmsdk/
+16c2067 cmsdk: Allow services to conditionally start before decryption
+5780847 Automatic translation import
+
+====================
+     07-31-2016
+====================
+
+
+   * frameworks/base/
+7a47277 AE: Add Settings for AE and initial tunables (2/2)
+
+   * vendor/aicp/
+29ce43c sepolicy: Fix MTP for sdcardfs
+
+====================
+     07-30-2016
+====================
+
+
+   * packages/apps/AicpExtras/
+a06bc28 AE: Set navigation drawer opacity to 60%
+e7c30a3 AE: Tint nav drawer logo same as that of the icons
+8d3d9e1 AE: Slight remodification of colors
+
+   * packages/apps/Settings/
+e5fe7dd Automatic translation import
+
+   * packages/apps/Snap/
+d3497e2 SnapdragonCamera: Fix FD roll_dir issue
+61c3ce9 SnapdragonCamera: Reduce number of countdown timer option
+848bd70 SnapdragonCamera: limit AF animation FPS
+118b54c SnapdragonCamera: fix crash after photo deletion
+eb60e2e SnapdragonCamera: Fix app crash when taking longshot during countdown
+828954c SnapdragonCamera: Fix app auto close when repeat plug in/out USB cable
+2428156 SnapDragon: Changes to fix popup menu issue in camcorder
+1fddfd0 SnapdragonCamera: fix camera FC when internal storage isn't enough
+0bce7c9 SnapdragonCamera: fix crash with persist.panel.orientation
+f09d9d0 SnapdragonCamera: fix a panorama memory leak
+a704fe9 SnapdragonCamera: Fix face detection UI offset
+5933a0b SnapdragonCamera: Fix AEC lock issue after non-zsl snapshot.
+ebe93e5 SnapdragonCamera: Disable continuous shot when HDR is enabled
+656585d SnapDragan: Changes to enable UI option for ASD mode.
+858413d SnapdragonCamera: Fix the issue that IS is not disabled
+2fc004c SnapdragonCamera: Disable CDS and TNR if SeeMore is enabled
+6d7dfbf Snap: Unbreak auto-HDR
+
+   * vendor/aicp/
+55aa34c kenzo: Update build fingerprint
+d4a0e2f Gello artifact: v29
+
+   * vendor/cmsdk/
+f732e3a Automatic translation import
+
