@@ -1,5 +1,5 @@
 Device specific changes
-Added samsung doze like feature and attempt to decrease battery life in standyby(WIP)
+Added samsung doze like feature and attempt to decrease battery Drain in standyby(WIP)
 Add CM Weather service repo (android)
 config: Add WeatherManagerService to PRODUCT_PACKAGES (android_vendor_cm)
 WeatherManagerService: Initial port from CMSDK (android_packages_services_WeatherService)
