@@ -1,0 +1,430 @@
+====================
+     08-16-2016
+====================
+
+
+   * packages/apps/Messaging/
+6086e51 Unachive conversations from unblocked participants
+
+   * packages/providers/MediaProvider/
+8b84c4d MediaProvider: catch data exception to avoid crash
+93e487a MediaProvider: Fix failure in android.provider.cts.MediaStore_FilesTest
+1e2e9b8 Gallery2: Fix thumbnails of new edit photos display wrongly in Documents.
+c340d1f Music: Fix force closed when plug out the SD card while music is playing.
+ad8548e MediaProvider: Fix SQLiteDiskIOException.
+
+   * vendor/aicp/
+926b2b0 apns: Fix T-Mobile MK DATA access
+
+====================
+     08-15-2016
+====================
+
+
+   * build/
+b012d53 build: Source a CM-specific global BoardConfig
+
+   * external/wpa_supplicant_8/
+dc6ca43 Merge branch 'wlan-service.lnx.1.0-rel.1.0' of git://codeaurora.org/platform/external/wpa_supplicant_8 into cm-13.0
+
+   * frameworks/base/
+dc65b31 Fling: Trails width configuration [2/3]
+1ac0831 Merge "Blur: Add back Recents blur that XOSP removed just for fun" into mm6.0
+d7d7c24 am: Account for time changes when showing recent activities
+8f6efe7 Blur: Add back Recents blur that XOSP removed just for fun
+9ec4206 Blur: Fix qs shade alph to show correctly after LS
+
+   * frameworks/opt/net/wifi/
+709a459 Wifi: Do full DHCP if framework roam to a new SSID
+6d461a7 Do not process the results array if no results are received
+37cde44 Reply with a FAILURE if enable network is received for invalid id
+6501ec3 WifiService:Fix profile can't be updated when SIM changed
+4bbf00c Wifi: Issue Disconnect when Ip is changed
+875d895 wifi: Create new WifiConfiguration for savedConfig in addOrUpdateNetworkNative
+
+   * packages/apps/AicpExtras/
+b499af4 Merge "Blur: Add recents blur back that XOSP removed just for the fun" into mm6.0
+752c676 fixup a few strings for Blur UI
+49e5516 Blur: Add recents blur back that XOSP removed just for the fun
+4f8dec9 Blur: edit notice, stroke and logo are working now
+
+   * packages/apps/DUI/
+66a635c Fling: Trails width configuration [3/3]
+
+   * packages/apps/Settings/
+38477f4 Fling: Trails width configuration [1/3]
+
+   * packages/services/Telecomm/
+5a60a96 Automatic translation import
+
+   * vendor/aicp/
+43dd95f cm: Allow LiveDisplay to write to display misc dir
+a0f8539 cm: charger: Export the RTC Clock and Alarm timestamps
+d98000e cm: charger: Add support for double backlight displays
+dea80e1 cm: Add custom off-mode charging screen
+7c98469 extract-utils: Add pinning support
+
+   * vendor/cmsdk/
+1bbae08 CMSDK : Fix generateAlertColorFromDrawable for non BitmapDrawable
+
+====================
+     08-14-2016
+====================
+
+
+   * frameworks/base/
+7fed641 Automatic translation import
+821a56b Merge "Revert "Revert "am: Notify zygote of font change in ActivityManagerService""" into mm6.0
+5e1f52e Revert "Revert "am: Notify zygote of font change in ActivityManagerService""
+fc4d3df BLUR: Fix it up to work in conjunction with our features
+
+   * packages/apps/AicpExtras/
+022afed Blur: Switches need to reflect actual state on main switch toggle
+31311b5 Blur: Main switch now restores previous switch values
+
+   * packages/apps/AudioFX/
+47248a0 Automatic translation import
+
+   * packages/apps/Camera2/
+e3d02a2 Automatic translation import
+
+   * packages/apps/CellBroadcastReceiver/
+b35b459 Automatic translation import
+
+   * packages/apps/Contacts/
+09dccf0 Automatic translation import
+
+   * packages/apps/ContactsCommon/
+ec49830 Automatic translation import
+
+   * packages/apps/DeskClock/
+be9c79b Automatic translation import
+
+   * packages/apps/Exchange/
+4758359 Automatic translation import
+
+   * packages/apps/FMRadio/
+1f5e945 Automatic translation import
+
+   * packages/apps/Gallery2/
+a0ee497 Gallery: Remove more possible NPEs
+
+   * packages/apps/Gello/
+8fb25f4 Automatic translation import
+
+   * packages/apps/LockClock/
+7a23000 Automatic translation import
+
+   * packages/apps/Messaging/
+8f1ecd7 Automatic translation import
+
+   * packages/apps/PhoneCommon/
+f3ceccc Automatic translation import
+
+   * packages/apps/Settings/
+00e5859 Automatic translation import
+42e8c51 Update AE icon
+
+   * packages/apps/Snap/
+1532d76 Automatic translation import
+2781c8e Snap: String improvements
+
+   * packages/apps/ThemeChooser/
+7cfad7f Automatic translation import
+f1fcc80 Automatic translation import
+a9cbc3b Automatic translation import
+136a6d0 Automatic translation import
+b2122a1 Automatic translation import
+7a9fb1b ThemeChooser: fix on theme installed notification
+
+   * packages/apps/Trebuchet/
+cef6d9c Automatic translation import
+
+   * packages/apps/TvSettings/
+514c721 Automatic translation import
+
+   * packages/inputmethods/LatinIME/
+fa3518f Automatic translation import
+
+   * packages/providers/BookmarkProvider/
+be42e53 Automatic translation import
+
+   * packages/providers/CalendarProvider/
+4066adb Automatic translation import
+
+   * packages/providers/CallLogProvider/
+ba2ea00 Automatic translation import
+
+   * packages/providers/DataUsageProvider/
+51d9963 Automatic translation import
+
+   * packages/providers/TelephonyProvider/
+490a177 Automatic translation import
+
+   * packages/services/CMAudioService/
+4f029e0 Automatic translation import
+
+   * packages/services/Telephony/
+9979ad7 Automatic translation import
+
+   * packages/services/ThemeManagerService/
+0eff4ce Automatic translation import
+a18b832 Fix up headers theming after broker from CM
+
+   * packages/wallpapers/LivePicker/
+39dc141 Automatic translation import
+
+   * packages/wallpapers/MagicSmoke/
+b204d0b Automatic translation import
+
+   * vendor/aicp/
+a93d3cb vendor_aicp: AICPfy extract_utils.sh
+
+   * vendor/cmsdk/
+b562ea2 Automatic translation import
+
+====================
+     08-13-2016
+====================
+
+
+   * frameworks/native/
+a5f80a5 surfaceflinger: Access s3d flags only for valid display ID.
+
+   * packages/apps/AicpExtras/
+7bfe03a Blur: move Blur settings to a nav drawer item
+292956f [SQUASHED] Implement XOSP Blur personalization options (2/2)
+
+   * packages/apps/Gello/
+cf74c29 Gello: Make incognito sentence fully translatable
+
+   * packages/apps/Settings/
+fefd8db Settings: move high touch sensitivity setting to Display
+58c5bf3 Settings:Fix mImsi null cause ApnSettings crash
+
+   * packages/services/ThemeManagerService/
+901a907 ThemeManager: add icon
+28c5f0a Automatic translation import
+
+   * packages/themes/HexoLibre/
+3fe76ae Remove device specific assignments.
+914a81d Remove custom package signature
+a9aa5d7 Add Aicp custom icons
+
+   * platform_manifest/
+35e2b7d Track HexoLibre locally
+d6a76d3 manifest: Add HexoLibre to manifest!
+
+   * system/netd/
+a178f13 Listen to xt_quota2 kobject event for quota
+8ff7082 TetherController: fix forwarding request aggregation logic
+
+   * vendor/aicp/
+21b107f cm: Build HexoLibre as part of common_full
+
+====================
+     08-12-2016
+====================
+
+
+   * build/
+a6fd88d build: Allow all possible JDK editions by default
+
+   * device/qcom/common/
+1a2515c power-8916: Simplify missed soc_id check in 9e40a0e
+
+   * frameworks/base/
+61712ca [SQUASHED] Blur: Major update (1/2)
+d5aa3fe [SQUASHED] Implement XOSP Blur personalization options (1/2)
+
+   * packages/apps/Settings/
+c7abc0a Settings: remove wifi hotspot timeout when hotspot settings are removed
+1e2d5c7 Settings: Show only one tab on PrivacyGuard direct access
+6158b8f Settings: Root appops access in developer settings
+
+   * packages/services/CMAudioService/
+2087f64 CMAudioService: sign with private keys if available
+1127d85 CMAudioService: add icons
+
+   * packages/services/LiveLockScreenService/
+675cedc LiveLockscreenService: add icons
+
+   * packages/themes/HexoLibre/
+ecccbb5 Remove extra metadata
+1c82089 hexolibre: Fix strings
+f61ab04 VIVA LA HEXOLIBRE!
+
+   * vendor/cmsdk/
+3329725 cmsdk: allow MANAGE_AUDIO_SESSIONS to be whitelisted
+
+====================
+     08-11-2016
+====================
+
+
+   * frameworks/av/
+8d41a10 mediascanner: Accept .opus file extension.
+
+   * frameworks/base/
+b8a467e Merge "HALO header & QS switch longclick action [1/2]" into mm6.0
+32712e0 HALO header & QS switch longclick action [1/2]
+7a27935 pm: resolver: Don't hold the lock when calling into the resolver
+7876bd6 Halo: fix behaviour of statusbar header icon
+db252df IconPackHelper:Use un-tinted iconback when no defaultSwatchcolor is specified
+
+   * packages/apps/AicpExtras/
+6542f23 Update Halo settings directly on en-/disabling Halo
+e4f5865 Merge "AE: Updated TR translations by Umut Turunc" into mm6.0
+80dc558 Merge "HALO header & QS switch longclick action [2/2]" into mm6.0
+346feec HALO header & QS switch longclick action [2/2]
+7c10e69 Halo: disable options if halo is disabled + small cleanup
+cdf4d97 AE: Updated TR translations by Umut Turunc
+
+   * packages/apps/Snap/
+e095785 Snap: Support 9.6 MP 16:9 picture resolution
+2b5331e Snap: Remove storage menu if no external storage available
+
+   * vendor/cmsdk/
+dcb817e livedisplay: Float-to-string conversions considered harmful
+ff3f383 Introduce a hysteresis for outdoor condition determination.
+
+====================
+     08-10-2016
+====================
+
+
+   * frameworks/av/
+2071f20 stagefright: Remove the HAL3 limitation from the video reference clock selection
+
+   * frameworks/base/
+cacf006 Add FLAG_ACTIVITY_CLEAR_TASK when open halo notifications
+156a9d2 HALO: Floating mode notifications toggle[1/2]
+e9adc57 Update API's for Halo
+3a94338 Halo: don't ask
+e37944e Fling: update android-trail-drawing from Orange Open Source to 1.2.6
+4df3f73 Halo: Vector icons were named wrong :D
+f6b42cd Properly animate TaskManager button when Halo button is disabled
+090f3ed FWB: Add halo tile (1/2)
+945385e Halo: Add option to Enable/Disable Halo Button in Header [1/2]
+d2e9767 Halo: vectorize header icon
+
+   * packages/apps/AicpExtras/
+62cf76b Halo: disable floating preference if Floating mode is disabled
+4d2b2e2 HALO: Floating mode notifications toggle[2/2]
+fc539a4 Settings: Add option to Enable/Disable Halo Button in Header [2/2]
+
+   * packages/apps/Settings/
+9e10999 Settings: Animate pin/pattern fragment only if available
+
+   * vendor/aicp/
+0910cfc extract_utils: Do not change app SRC if there are arguments
+
+   * vendor/cmsdk/
+3d81979 CMSDK: Add Halo tile (2/2)
+
+====================
+     08-09-2016
+====================
+
+
+   * external/wpa_supplicant_8/
+a08fd9e wpa_supplicant: Remove unnecessary QMI linkage
+
+   * frameworks/base/
+b9abc0a Merge "AE custom colors switch (1/2)" into mm6.0
+72be2df Revert "am: Notify zygote of font change in ActivityManagerService"
+1aaa46d AE custom colors switch (1/2)
+fa94e73 Automatic translation import
+0038814 framework: extend provision check to SEARCH intents
+
+   * hardware/cyanogen/
+ec15025 cmhw: Add support for picture adjustment via LiveDisplay native API
+
+   * packages/apps/AicpExtras/
+906a620 Merge "Fix AE subsettings styled colors from PreferenceTheme" into mm6.0
+bb8a509 Fix AE subsettings styled colors from PreferenceTheme
+
+   * packages/apps/Messaging/
+84d9f82 Clear avatar media cache on theme change
+
+   * packages/apps/Settings/
+439c4bb Merge "Remove SlimDim leftovers" into mm6.0
+187c5ac Automatic translation import
+6cbdecf Revert "Settings: Add screen color settings"
+3dda4b1 livedisplay: Add picture adjustment settings
+
+   * vendor/aicp/
+cdadf6a Merge "Prepare for amami marshmallow official" into mm6.0
+3e8933c sepolicy: Move new QCOM-specific policy to the right place
+35c0fa2 sepolicy: Additional policy for LiveDisplay
+ee56cd3 Kenzo: add bootanimation
+
+   * vendor/cmsdk/
+1752e81 Automatic translation import
+8c0af1c cmsdk/livedisplay: Add support for picture adjustment
+
+====================
+     08-08-2016
+====================
+
+
+   * frameworks/base/
+6d262dd Halo: Add more info to tutorial on first run
+
+   * packages/apps/AicpExtras/
+b437359 AE custom colors switch (2/2)
+
+   * packages/apps/CMFileManager/
+eef4e32 Automatic translation import
+
+   * packages/apps/CellBroadcastReceiver/
+b7fdfd5 Automatic translation import
+
+   * packages/apps/Contacts/
+6063f78 Automatic translation import
+
+   * packages/apps/Gello/
+1772b98 Automatic translation import
+
+   * packages/apps/Screencast/
+fff111e Automatic translation import
+
+   * packages/apps/Settings/
+f869f1d Remove SlimDim leftovers
+197941e Revert "Fix NPE when rotating "Saved networks" screen"
+347b211 Revert "do not include saved network in scan list"
+
+   * packages/apps/Snap/
+c5ce733 Automatic translation import
+
+   * packages/apps/SoundRecorder/
+946fee3 Automatic translation import
+
+   * packages/services/CMAudioService/
+8ce29f0 Automatic translation import
+
+   * vendor/aicp/
+80e5610 deb | flo: Update fingerprints to MOB30X
+
+====================
+     08-07-2016
+====================
+
+
+   * frameworks/base/
+9ed1afd [1/3] base: make overlay permission check configurable
+
+   * packages/apps/OmniSwitch/
+18d0114 OmniSwitch: launcher: no ripple no fun
+e54d6cc OmniSwitch: revert recent apps should not change order in quick switcher
+aec0c61 OmniSwitch: launcher: change essentials launch intents
+
+   * packages/apps/PackageInstaller/
+25efb0c [3/3] PackageInstaller: make overlay permission check configurable
+
+   * packages/apps/Settings/
+46c3db2 [2/3] Settings: make overlay permission check configurable
+
+   * vendor/aicp/
+7c1a1c7 Prepare for amami marshmallow official
+
