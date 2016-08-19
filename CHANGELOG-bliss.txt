@@ -1,0 +1,118 @@
+====================
+     08-19-2016
+====================
+
+
+====================
+     08-18-2016
+====================
+
+
+   * device/qcom/sepolicy/
+b273541 common: add selinux policy for fastmmi
+055d6b9 sepolicy : add inital rule to bootanimation.
+ff69bb7 sepolicy: Add permissions for new dsp node
+13b4b00 sepolicy: Add policy for VR service
+587b3d3 sepolicy: Mark time_daemon domain as mlstrusted
+1de4796 sepolicy: remove exec permission for radio
+7c070d3 sepolicy: Add secontexts boot and persist.nativehmi.exit
+4955946 sepolicy : Allow bootkpi access to system apps and vold
+aa8f981 Location: added media server access permission for test app
+
+   * frameworks/base/
+f9c96c4 Fix slow anim when using a gesture to open status bar pulldown
+
+   * frameworks/native/
+2a2b06d Fix xxxhdpi 3072 heap sizes
+
+   * frameworks/opt/net/wifi/
+19adf48 Fix potential memory leak
+
+   * manifest/
+db1d55c Add CM Weather service repo
+
+   * prebuilts/cmsdk/
+96707cf prebuilts/cmsdk: Cement api 6 release.
+
+   * vendor/bliss/
+f4a608b config: Add WeatherManagerService to PRODUCT_PACKAGES
+
+   * vendor/cmsdk/
+f7721f5 CMSDK: Broker out WeatherManagerService
+
+====================
+     08-17-2016
+====================
+
+
+   * frameworks/opt/net/wifi/
+cab7889 wifi: Stop spamming logs
+
+   * packages/apps/Contacts/
+a5730ba Contacs: Fix build without jack
+
+   * packages/apps/ContactsCommon/
+60a394e Fix crash when block incoming call without caller ID
+
+   * packages/apps/Dialer/
+7f23b87 Dialer: Fix build without jack
+
+   * packages/apps/LockClock/
+fa73ab0 LockClock: Clean up proguard, fix build without jack
+968e746 LockClock: Don't forcefully enable widget calendar on resume
+
+   * packages/providers/ContactsProvider/
+4346f8e ContactsProvider: Fix build without jack
+
+   * packages/services/LiveLockScreenService/
+09b857e LiveLockScreenService: Fix build without jack
+
+   * packages/services/WeatherService/
+5f53cda WeatherManagerService: Fix build without jack
+
+====================
+     08-16-2016
+====================
+
+
+   * external/wpa_supplicant_8/
+dc6ca43 Merge branch 'wlan-service.lnx.1.0-rel.1.0' of git://codeaurora.org/platform/external/wpa_supplicant_8 into cm-13.0
+
+   * frameworks/native/
+94774ac dalvik: rework 3 and 4-GB dalvik heap configurations
+
+   * frameworks/opt/net/wifi/
+709a459 Wifi: Do full DHCP if framework roam to a new SSID
+6d461a7 Do not process the results array if no results are received
+37cde44 Reply with a FAILURE if enable network is received for invalid id
+6501ec3 WifiService:Fix profile can't be updated when SIM changed
+4bbf00c Wifi: Issue Disconnect when Ip is changed
+875d895 wifi: Create new WifiConfiguration for savedConfig in addOrUpdateNetworkNative
+
+   * packages/apps/Eleven/
+c7f1f86 Convert to new media button receiver logic.
+
+   * packages/apps/Messaging/
+6086e51 Unachive conversations from unblocked participants
+
+   * packages/services/WeatherService/
+42edf42 Allow Weather service to write to secure settings
+
+   * packages/themes/HexoLibre/
+18ba8af Kover Libre
+
+   * vendor/cmsdk/samples/weatherproviderservice/OpenWeatherMapProvider/
+2661188 Fix string
+afe47bc Refactor OpenWeatherMap weather provider service
+
+====================
+     08-15-2016
+====================
+
+
+   * packages/apps/Gello/
+8fb25f4 Automatic translation import
+
+   * packages/apps/Snap/
+1532d76 Automatic translation import
+
