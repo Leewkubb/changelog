@@ -10,8 +10,7 @@ Merge tag 'android-6.0.1_r66' into HEAD (android_frameworks_base)
 Revert "Revert "Fix problem with cell data service after SIM swap"(android_frameworks_opt_telephony)
 libcameraservice: Don't pass NULL args on setCallbacks call (android_frameworks_av)
 PhoneWindowManager: set focus flags on keyguard panels (android_frameworks_base)
-Fix AIOOBE with root access disabled.
-2016-09-09 at 07:54 pm (+01:00) (android_packages_apps_Settings)
+Fix AIOOBE with root access disabled.(android_packages_apps_Settings)
 Fix tab position handling for RTL languages (android_packages_apps_Dialer)
 himawl: Remove Mms package overlay
 Settings: Hidden option to view Device ID On tapping 7 times, show the device ID and copy it to clipboard. CYNGNOS-323(android_packages_apps_Settings)
