@@ -1,0 +1,35 @@
+Device specific changes
+disable CM charger
+Specify Product AAPT config
+
+CyanogenMod changes
+default.xml: cm: Update to 6.0.1_r66
+version: Set version string to 13.0.2 to reflect security update(android_vendor_cm)
+Merge tag 'android-6.0.1_r66' into HEAD (android_frameworks_base)
+[Glowpad] Remove marginBottom (android_packages_apps_InCallUI)
+Revert "Revert "Fix problem with cell data service after SIM swap"(android_frameworks_opt_telephony)
+libcameraservice: Don't pass NULL args on setCallbacks call (android_frameworks_av)
+PhoneWindowManager: set focus flags on keyguard panels (android_frameworks_base)
+Fix AIOOBE with root access disabled.
+2016-09-09 at 07:54 pm (+01:00) (android_packages_apps_Settings)
+Fix tab position handling for RTL languages (android_packages_apps_Dialer)
+himawl: Remove Mms package overlay
+Settings: Hidden option to view Device ID On tapping 7 times, show the device ID and copy it to clipboard. CYNGNOS-323(android_packages_apps_Settings)
+Correct channel 50 message in Spanish (android_packages_apps_CellBroadcastReceiver)
+Messaging: fix some int'l numbers from displaying incorrectly (android_packages_apps_Messaging)
+omx: softcodecs: Support HAL_PIXEL_FORMAT_RGBX_8888 (android_frameworks_av)
+CameraClient: MTK Support (android_frameworks_av)
+Remove BootReceiver (android_packages_apps_ThemeChooser)
+Capitalize app name (android_packages_apps_ThemeChooser)
+String updates (android_packages_apps_ThemeChooser)
+Fix line wrapping for crowdin (android_packages_apps_ThemeChooser)
+Move actions in theme card to overflow menu (android_packages_apps_ThemeChooser)
+Gallery2: Fix no android.permission.INTERACT_ACROSS_USERS in guest mode (android_packages_apps_Gallery2)
+cm: charger: Center capacity and vertical offset (android_vendor_cm)
+connectivity-service: fix/improve unique hostname(android_frameworks_base)
+SystemUI: Don't pad when config_showScreenOnLockScreenHints is false (android_frameworks_base)
+Themes: Give power dialogs own set of volume icons for themes (android_frameworks_base)
+Ensure packages on adopted media do not move when updated (android_frameworks_base)
+Apps on adopted storage should stay there during update  (android_frameworks_base)
+
+For more changes, track github activities
