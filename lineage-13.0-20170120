@@ -1,0 +1,39 @@
+android_vendor_cm
+
+vendor: Add a task for getting prebuilts via http
+cm: Rebrand CM_VERSION to LINEAGE_VERSION
+cm: Rework boot animation generation
+Fix wrong bootanimation.zip from mkdir .../part{0..2}
+http_prebuilt: Improve retrieval of artifacts from archive
+cm: config: Remove obsolete props
+Disable SU by default
+vendor: lineage boot animation
+cm: bootanimation: Clear intermediaries 
+cm: bootanimation: Improve boot animation
+extract_utils: Introduce variable INITIAL_COPYRIGHT_YEAR
+
+android_build
+
+build: Rebrand CM_VERSION to LINEAGE_VERSION
+core: move platform-specific helper macros to target makefiles
+build: support lineage device trees
+build: kernel: Remove obsolete checks
+
+android_packages_apps_SetupWizard
+
+SetupWizard: rebrand to LineageOS
+SetupWizard: Don't show wifi setup on wifi-less devices 
+
+android_packages_apps_Settings
+
+Settings: CMStats: use new server-side API 
+DeviceInfo: Set is_lineage intent when launching PlatLogo
+Settings: Update button backlight brightness in real time
+ButtonBacklight: Preview timeout once user stops dragging
+
+recovery: Fix "Wipe data" wrong "System reset" naming(android_bootable_recovery)
+
+losetup: Fix loop mounting (android_external_toybox)
+
+cmsdk: Update README references for LineageOS (cm_platform_sdk)
+
