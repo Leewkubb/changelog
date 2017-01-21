@@ -1,0 +1,56 @@
+====================
+Device specific changes
+====================
+Added custom doze service
+Removed Gello browser
+Fix MTP permissions
+cmhw: Use cmsdk FileUtils
+
+====================
+platform_vendor_bliss
+====================
+apns: Remove loop and bpl mobile
+version: Set version string to 13.0.4 to reflect security update
+extract_utils: Add option to define the certificate for jars
+
+====================
+platform_frameworks_base
+====================
+Support enforcing a minimum delay between notification sounds of an app
+(Optionally) allow vibration during priority zen mode
+Use material icons in printer selection activity
+bootanimation: enable multithread decode by default
+SystemUI: Fix possible NPE
+Merge tag 'android-6.0.1_r74' into HEAD
+Add CMSDK resource APK to Zygote FD whitelist
+frameworks/base: Addition of Changes for ZeroBalance feature
+zygote: Add /proc/ged to the FD whitelist
+SettingsLib: Fix possible NPEs
+zygote: Allow device to append extra whitelisted paths
+
+====================
+platform_build
+====================
+releasetools: Rebuild recovery when signing target images
+build: qcom_target: Enable BOARD_USES_ADRENO
+Merge tag 'android-6.0.1_r74' into HEAD
+kernel: Auto-set prefix based on KERNEL_ARCH
+Revert "qcom: Select Sony display/media variants for Sony devices"
+
+====================
+platform_frameworks_av
+====================
+Merge tag 'android-6.0.1_r74' into HEAD
+Allow to use baseline profile for AVC recording
+libstagefright: wfd: don't use intra macroblock refresh mode on omap4
+stagefright: don't fail MediaCodec.configure if clients use store-meta key
+
+====================
+platform_packages_apps_Settings
+====================
+SecuritySettings: Fix KeyStore related NPE's 
+Add setup UI for minimum delay between an app's notification sounds.
+Allow selecting vibration mode during zen priority mode.
+Merge tag 'android-6.0.1_r74' into HEAD
+Settings: Fix mismerge
+lights: Use NotificationManager to figure out LED capabilities
